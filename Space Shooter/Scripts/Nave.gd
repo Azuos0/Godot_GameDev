@@ -36,14 +36,13 @@ func _process(delta):
 		e = 0
 	
 	#atualização da posição da nave
-	position += Vector2(vel,0) * delta * (d + e)
+	position += Vector2(1,0) * vel * delta * (d + e)
 	
 	#Disparo do laser
 	if Input.is_action_pressed("Tiro"):
 		if ultimo_disparo <= 0:
-			var tiro = pre_tiro.instance()
-			tiro.global_position = global_position + (Vector2(0, -1) * (textura.y/2 + textura.y/4))
-			get_parent().add_child(tiro)
+			disparar(get_node("CanhaoE"))
+			disparar(get_node("CanhaoD"))
 			ultimo_disparo = intervalo
 			pass
 		pass
@@ -55,4 +54,10 @@ func _process(delta):
 		pass
 	
 	
+	pass
+
+func disparar(node):
+	var tiro = pre_tiro.instance()
+	tiro.global_position = node.global_position + Vector2(0, -30)
+	get_parent().add_child(tiro)
 	pass

@@ -1,14 +1,43 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Nave.gd" type="Script" id=1]
 [ext_resource path="res://images/PNG/playerShip1_blue.png" type="Texture" id=2]
+[ext_resource path="res://images/PNG/Parts/gun06.png" type="Texture" id=3]
 
 [node name="Nave" type="Node2D" index="0"]
 
+position = Vector2( 0, 1.76051 )
 script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
+position = Vector2( 0, -16.7248 )
 texture = ExtResource( 2 )
+_sections_unfolded = [ "Offset", "Transform" ]
+
+[node name="CanhaoE" type="Sprite" parent="." index="1"]
+
+position = Vector2( -35, -20 )
+texture = ExtResource( 3 )
+flip_v = true
+_sections_unfolded = [ "Offset", "Transform" ]
+
+[node name="CanhaoD" type="Sprite" parent="." index="2"]
+
+position = Vector2( 35, -20 )
+texture = ExtResource( 3 )
+flip_v = true
+_sections_unfolded = [ "Transform" ]
+
+[node name="PosCanhaoE" type="Position2D" parent="." index="3"]
+
+position = Vector2( -35, -49 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="PosCanhaoD" type="Position2D" parent="." index="4"]
+
+position = Vector2( 35, -49 )
+_sections_unfolded = [ "Transform" ]
 
 
