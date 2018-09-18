@@ -1,6 +1,6 @@
 extends Area2D
 
-var vel = 250
+var vel = 150
 var rot = 0
 var vida = 4
 
@@ -17,8 +17,12 @@ func _process(delta):
 	pass
 
 func aplica_dano(valor):
-	vida -= valor
 	if vida <= 0:
-		queue_free()
+		remove_from_group(Game.GRUPO_INIMIGO)
+		get_node("Anim").play("Destruir")
+		pass
+	else:
+		get_node("Anim").play("Danificado")
+		vida -= valor
 		pass
 	pass

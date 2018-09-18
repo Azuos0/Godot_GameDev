@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Scripts/Meteor_spawner.gd" type="Script" id=1]
 
-[node name="Meteor_spawner" type="Node" index="0"]
+[node name="Meteor_spawner" type="Node"]
 
 script = ExtResource( 1 )
 

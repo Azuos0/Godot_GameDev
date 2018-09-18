@@ -18,26 +18,27 @@ _sections_unfolded = [ "Offset", "Transform" ]
 
 [node name="CanhaoE" type="Sprite" parent="." index="1"]
 
-position = Vector2( -35, -20 )
+position = Vector2( -25, -19.7605 )
+rotation = 0.00120591
 texture = ExtResource( 3 )
 flip_v = true
 _sections_unfolded = [ "Offset", "Transform" ]
 
 [node name="CanhaoD" type="Sprite" parent="." index="2"]
 
-position = Vector2( 35, -20 )
+position = Vector2( 25, -20 )
 texture = ExtResource( 3 )
 flip_v = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="PosCanhaoE" type="Position2D" parent="." index="3"]
 
-position = Vector2( -35, -49 )
+position = Vector2( -25, -48.7605 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="PosCanhaoD" type="Position2D" parent="." index="4"]
 
-position = Vector2( 35, -49 )
+position = Vector2( 25, -49 )
 _sections_unfolded = [ "Transform" ]
 
 

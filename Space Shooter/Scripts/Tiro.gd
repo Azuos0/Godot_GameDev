@@ -16,15 +16,15 @@ func _process(delta):
 
 
 func _on_Tiro_area_entered(area):
+	
 	if area.is_in_group(Game.GRUPO_INIMIGO):
 		if area.has_method("aplica_dano"):
 			area.aplica_dano(1)
-			pass
-		else:
 			destroi_tiro()
-		pass
+			pass
 	
-	pass # replace with function body
+	
+	pass
 
 func destroi_tiro():
 	queue_free()
