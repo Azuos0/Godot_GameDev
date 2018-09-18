@@ -17,12 +17,15 @@ func _process(delta):
 	pass
 
 func aplica_dano(valor):
-	if vida <= 0:
-		remove_from_group(Game.GRUPO_INIMIGO)
-		get_node("Anim").play("Destruir")
-		pass
-	else:
+	if vida > 0:
 		get_node("Anim").play("Danificado")
 		vida -= valor
+		pass
+	
+	if vida <= 0:
+		remove_from_group(Game.GRUPO_INIMIGO)
+		z_index = 1
+		rot = 0
+		get_node("Anim").play("Destruir")
 		pass
 	pass
