@@ -4,6 +4,7 @@ var vel = 500
 
 func _ready():
 	set_process(true)
+	$TiroFX.play()
 	pass
 
 func _process(delta):

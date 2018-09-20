@@ -10,6 +10,8 @@ resource_name = "Parallax_camera"
 script/source = "extends Camera2D
 
 var vel = 150
+var shake = 0
+
 
 func _ready():
 	set_process(true)
@@ -17,11 +19,22 @@ func _ready():
 
 func _process(delta):
 	offset += Vector2(0, -1) * vel * delta
+	
+	if shake > 0:
+		position = Vector2(cos(rad2deg(shake)), sin(rad2deg(shake))) * 2
+		shake -= delta
+		pass
+	else:
+		position = Vector2(0,0)
+		pass
 	pass
-"
+
+func shake():
+	shake = 0.3
+	pass"
 _sections_unfolded = [ "Resource" ]
 
-[node name="Main" type="CanvasLayer" index="0"]
+[node name="Main" type="CanvasLayer"]
 
 layer = 1
 offset = Vector2( 0, 0 )
@@ -78,6 +91,7 @@ _sections_unfolded = [ "Scroll" ]
 
 [node name="Estrelas" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
 
+editor/display_folded = true
 motion_scale = Vector2( 1, 1 )
 motion_offset = Vector2( 0, 0 )
 motion_mirroring = Vector2( 0, 480 )

@@ -27,5 +27,7 @@ func aplica_dano(valor):
 		z_index = 1
 		rot = 0
 		get_node("Anim").play("Destruir")
+		$ExplosionFX.play()
+		Game.getCamera().shake()
 		pass
 	pass

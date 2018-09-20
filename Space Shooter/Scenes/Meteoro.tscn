@@ -1,7 +1,8 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://Scripts/Meteoro.gd" type="Script" id=1]
 [ext_resource path="res://images/PNG/Meteors/meteorBrown_big1.png" type="Texture" id=2]
+[ext_resource path="res://Sounds/Explosion3__007.wav" type="AudioStream" id=3]
 
 [sub_resource type="Animation" id=1]
 
@@ -109,37 +110,37 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="CanvasItemMaterial" id=9]
+[sub_resource type="CanvasItemMaterial" id=4]
 
 render_priority = 0
 blend_mode = 1
 light_mode = 0
 
-[sub_resource type="Gradient" id=4]
+[sub_resource type="Gradient" id=5]
 
 offsets = PoolRealArray( 0, 0.0177515, 0.218935, 0.544379, 0.792899, 1 )
 colors = PoolColorArray( 0, 0, 0, 1, 1, 0.999512, 0.992188, 1, 0.972656, 0.913765, 0.0303955, 1, 0.769531, 0.473673, 0.201401, 1, 0.941406, 0.602399, 0.0735474, 0.845294, 0.984375, 0.0346069, 0.0346069, 0.353608 )
 
-[sub_resource type="GradientTexture" id=5]
+[sub_resource type="GradientTexture" id=6]
 
 flags = 4
-gradient = SubResource( 4 )
+gradient = SubResource( 5 )
 width = 2048
 
-[sub_resource type="Curve" id=6]
+[sub_resource type="Curve" id=7]
 
 min_value = 0.0
 max_value = 3.0
 bake_resolution = 100
 _data = [ Vector2( 0, 0.861082 ), 0.0, -0.79164, 0, 0, Vector2( 0.998698, 2.27393 ), 0.762081, 0.0, 0, 0 ]
 
-[sub_resource type="CurveTexture" id=7]
+[sub_resource type="CurveTexture" id=8]
 
 flags = 4
 width = 2048
-curve = SubResource( 6 )
+curve = SubResource( 7 )
 
-[sub_resource type="ParticlesMaterial" id=8]
+[sub_resource type="ParticlesMaterial" id=9]
 
 render_priority = 0
 trail_divisor = 1
@@ -169,8 +170,8 @@ angle = 0.0
 angle_random = 0.0
 scale = 10.0
 scale_random = 0.2
-scale_curve = SubResource( 7 )
-color_ramp = SubResource( 5 )
+scale_curve = SubResource( 8 )
+color_ramp = SubResource( 6 )
 hue_variation = 0.0
 hue_variation_random = 0.0
 anim_speed = 0.0
@@ -218,7 +219,7 @@ _sections_unfolded = [ "Playback Options" ]
 
 [node name="Particles2D" type="Particles2D" parent="." index="3"]
 
-material = SubResource( 9 )
+material = SubResource( 4 )
 emitting = true
 amount = 32
 lifetime = 0.7
@@ -232,11 +233,20 @@ fract_delta = true
 visibility_rect = Rect2( -100, -100, 200, 200 )
 local_coords = true
 draw_order = 0
-process_material = SubResource( 8 )
+process_material = SubResource( 9 )
 texture = null
 normal_map = null
 h_frames = 1
 v_frames = 1
 _sections_unfolded = [ "Drawing", "Material", "Process Material", "Time", "Visibility" ]
+
+[node name="ExplosionFX" type="AudioStreamPlayer" parent="." index="4"]
+
+stream = ExtResource( 3 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Master"
 
 
