@@ -2,7 +2,7 @@ extends Area2D
 
 var vel = 150
 var rot = 0
-var vida = 4
+var vida = 2
 
 func _ready():
 	set_process(true)

@@ -1,0 +1,54 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://images/PNG/Power-ups/pill_red.png" type="Texture" id=1]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Area2D
+
+# class member variables go here, for example:
+# var a = 2
+# var b = \"textvar\"
+
+func _ready():
+	# Called when the node is added to the scene for the first time.
+	# Initialization here
+	pass
+
+#func _process(delta):
+#	# Called every frame. Delta is time since last frame.
+#	# Update game logic here.
+#	pass
+
+
+func _on_Powerup_tiro_rapido_area_entered(area):
+	if area.is_in_group(Game.GRUPO_NAVE):
+		area.trocar_arma(1)
+		queue_free()
+	pass # replace with function body
+"
+
+[node name="Powerup_tiro_rapido" type="Area2D"]
+
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Poly" type="CollisionPolygon2D" parent="." index="1"]
+
+build_mode = 0
+polygon = PoolVector2Array( -5.12581, -5.39142, -10.9962, 0.836298, -10.8431, 7.2682, -7.32083, 10.5352, -1.60358, 10.3821, 4.87938, 5.27738, 9.77988, 0.0705948, 10.9029, -2.07337, 11.056, -6.00398, 7.38068, -10.6493, -0.0721703, -10.6493 )
+
+[connection signal="area_entered" from="." to="." method="_on_Powerup_tiro_rapido_area_entered"]
+
+

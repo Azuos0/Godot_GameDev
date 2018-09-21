@@ -4,9 +4,16 @@
 [ext_resource path="res://images/PNG/playerShip1_blue.png" type="Texture" id=2]
 [ext_resource path="res://images/PNG/Parts/gun06.png" type="Texture" id=3]
 
-[node name="Nave" type="Node2D" index="0"]
+[node name="Nave" type="Area2D" index="0"]
 
 position = Vector2( 0, 1.76051 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
@@ -40,5 +47,14 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 25, -49 )
 _sections_unfolded = [ "Transform" ]
+
+[node name="PosCanhaoC" type="Position2D" parent="." index="5"]
+
+position = Vector2( 0, -63.7605 )
+
+[node name="BoxCollision" type="CollisionPolygon2D" parent="." index="6"]
+
+build_mode = 0
+polygon = PoolVector2Array( -50, -21.7605, -46, 8.23949, -13, 12.2395, -8, 21.2395, 7, 21.2395, 14, 11.2395, 47, 8.23949, 50, -23.7605, 8, -54.7605, -8, -54.7605 )
 
 
