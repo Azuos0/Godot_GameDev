@@ -50,3 +50,10 @@ func _process(delta):
 func trocar_arma(valor):
 	arma.trocar_arma(valor)
 	pass 
+
+
+func _on_Nave_area_entered(area):
+	if area.is_in_group(Game.GRUPO_INIMIGO):
+		if area.has_method("aplica_dano"):
+			area.aplica_dano(200)
+			Game.lifes -= 1

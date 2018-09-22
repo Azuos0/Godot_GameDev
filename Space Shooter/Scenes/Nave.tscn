@@ -57,4 +57,6 @@ position = Vector2( 0, -63.7605 )
 build_mode = 0
 polygon = PoolVector2Array( -50, -21.7605, -46, 8.23949, -13, 12.2395, -8, 21.2395, 7, 21.2395, 14, 11.2395, 47, 8.23949, 50, -23.7605, 8, -54.7605, -8, -54.7605 )
 
+[connection signal="area_entered" from="." to="." method="_on_Nave_area_entered"]
+
 

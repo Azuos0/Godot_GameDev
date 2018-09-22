@@ -13,7 +13,7 @@ func _process(delta):
 	position += Vector2(0,-1) * vel * delta
 	
 	if position.y < -30:
-		free()
+		destroi_tiro()
 	
 	pass
 
