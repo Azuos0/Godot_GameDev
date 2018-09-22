@@ -4,7 +4,7 @@
 [ext_resource path="res://images/PNG/playerShip1_blue.png" type="Texture" id=2]
 [ext_resource path="res://images/PNG/Parts/gun06.png" type="Texture" id=3]
 
-[node name="Nave" type="Area2D" index="0"]
+[node name="Nave" type="Area2D"]
 
 position = Vector2( 0, 1.76051 )
 input_pickable = true

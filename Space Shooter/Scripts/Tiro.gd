@@ -1,10 +1,12 @@
 extends Area2D
 
-var vel = 500
+var vel = 700
+var dano
 
 func _ready():
 	set_process(true)
-	$TiroFX.play()
+	$TiroSFX.play()
+	dano = 0.8
 	pass
 
 func _process(delta):
@@ -20,7 +22,7 @@ func _on_Tiro_area_entered(area):
 	
 	if area.is_in_group(Game.GRUPO_INIMIGO):
 		if area.has_method("aplica_dano"):
-			area.aplica_dano(1)
+			area.aplica_dano(dano)
 			destroi_tiro()
 			pass
 	

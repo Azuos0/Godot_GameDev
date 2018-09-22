@@ -1,18 +1,16 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Scripts/Tiro.gd" type="Script" id=1]
-[ext_resource path="res://images/PNG/Lasers/laserBlue04.png" type="Texture" id=2]
-[ext_resource path="res://Sounds/sfx_laser1.wav" type="AudioStream" id=3]
+[ext_resource path="res://Scripts/Tiro_vermelho.gd" type="Script" id=1]
+[ext_resource path="res://images/PNG/Lasers/laserRed01.png" type="Texture" id=2]
+[ext_resource path="res://Sounds/sfx_laser2.wav" type="AudioStream" id=3]
 
-[sub_resource type="CapsuleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 10.0
-height = 20.0
+extents = Vector2( 10, 10 )
 
-[node name="Tiro" type="Area2D" index="0"]
+[node name="Tiro_vermelho" type="Area2D"]
 
-position = Vector2( 0, -0.0944691 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -26,12 +24,11 @@ script = ExtResource( 1 )
 
 texture = ExtResource( 2 )
 
-[node name="ShapeBox" type="CollisionShape2D" parent="." index="1"]
+[node name="BoxCollider" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( -0.0503923, -0.182659 )
-scale = Vector2( 0.64853, 0.95624 )
+position = Vector2( -5.36442e-007, 2.74181e-006 )
+scale = Vector2( 0.461538, 2.69231 )
 shape = SubResource( 1 )
-_sections_unfolded = [ "Transform" ]
 
 [node name="TiroSFX" type="AudioStreamPlayer" parent="." index="2"]
 
