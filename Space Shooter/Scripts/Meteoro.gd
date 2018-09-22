@@ -3,6 +3,7 @@ extends Area2D
 var vel = 150
 var rot = 0
 var vida = 2
+var pontos = 10
 
 func _ready():
 	set_process(true)
@@ -29,6 +30,7 @@ func aplica_dano(valor):
 		get_node("Anim").play("Destruir")
 		$ExplosionFX.play()
 		Game.getCamera().shake()
+		Game.score += pontos
 		pass
 	pass
 
@@ -36,6 +38,5 @@ func aplica_dano(valor):
 func _on_destruction_animation_finished(anim_name):
 	
 	if anim_name == "Destruir":
-		print("Destruido")
 		queue_free()
 
