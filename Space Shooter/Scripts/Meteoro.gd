@@ -31,3 +31,11 @@ func aplica_dano(valor):
 		Game.getCamera().shake()
 		pass
 	pass
+
+
+func _on_destruction_animation_finished(anim_name):
+	
+	if anim_name == "Destruir":
+		print("Destruido")
+		queue_free()
+

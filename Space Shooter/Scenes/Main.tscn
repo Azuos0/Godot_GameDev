@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Scenes/Nave.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Meteor_spawner.tscn" type="PackedScene" id=2]
 [ext_resource path="res://images/PNG/Effects/star1.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/Powerup_tiro_rapido.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/Powerup_tiro_duplo.tscn" type="PackedScene" id=5]
+[ext_resource path="res://images/Bonus/kenvector_future.ttf" type="DynamicFontData" id=6]
 
 [sub_resource type="GDScript" id=1]
 
@@ -35,6 +36,14 @@ func shake():
 	shake = 0.3
 	pass"
 _sections_unfolded = [ "Resource" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 30
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 6 )
+_sections_unfolded = [ "Settings" ]
 
 [node name="Main" type="CanvasLayer"]
 
@@ -336,5 +345,26 @@ position = Vector2( 542.66, 426.025 )
 [node name="Powerup_tiro_duplo" parent="." index="5" instance=ExtResource( 5 )]
 
 position = Vector2( 72.4365, 423.57 )
+
+[node name="Score_label" type="Label" parent="." index="6"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 143.0
+margin_bottom = 35.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+text = "Score: "
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
 
 
