@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://images/shader_grayscale.png" type="Texture" id=1]
 [ext_resource path="res://images/Bonus/kenvector_future_thin.ttf" type="DynamicFontData" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Scenes/Powerup_tiro_duplo.tscn" type="PackedScene" id=7]
 [ext_resource path="res://images/Bonus/kenvector_future.ttf" type="DynamicFontData" id=8]
 [ext_resource path="res://images/PNG/UI/playerLife1_blue.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/Path_inimigo.tscn" type="PackedScene" id=10]
 
 [sub_resource type="GDScript" id=1]
 
@@ -130,7 +131,7 @@ func _draw():
 		draw_texture(textura, Vector2(n * textura.get_width() + 4, 0))"
 _sections_unfolded = [ "Resource" ]
 
-[node name="Main" type="CanvasLayer" index="0"]
+[node name="Main" type="CanvasLayer"]
 
 layer = 1
 offset = Vector2( 0, 0 )
@@ -528,5 +529,7 @@ position = Vector2( 12, 12 )
 script = SubResource( 8 )
 _sections_unfolded = [ "Transform" ]
 textura = ExtResource( 9 )
+
+[node name="Path_inimigo" parent="." index="7" instance=ExtResource( 10 )]
 
 

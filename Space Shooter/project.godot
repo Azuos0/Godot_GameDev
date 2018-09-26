@@ -17,6 +17,7 @@ config/icon="res://icon.png"
 [autoload]
 
 Game="*res://Scripts/Game.gd"
+Recursos="*res://Scripts/Recursos.gd"
 
 [display]
 
