@@ -51,9 +51,15 @@ func trocar_arma(valor):
 	arma.trocar_arma(valor)
 	pass 
 
+func retira_vida(dano):
+	Game.lifes -= dano
 
 func _on_Nave_area_entered(area):
 	if area.is_in_group(Game.GRUPO_INIMIGO):
 		if area.has_method("aplica_dano"):
 			area.aplica_dano(200)
-			Game.lifes -= 1
+			retira_vida(1)
+	elif area.is_in_group(Game.GRUPO_TIRO_INIMIGO):
+		if area.has_method("destroi"):
+			area.destroi()
+			retira_vida(1)

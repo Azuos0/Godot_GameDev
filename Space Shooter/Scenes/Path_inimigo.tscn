@@ -3,7 +3,7 @@
 [ext_resource path="res://Scripts/Path_inimigo.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Inimigo_01.tscn" type="PackedScene" id=2]
 
-[node name="Path_inimigo" type="Path2D" index="0"]
+[node name="Path_inimigo" type="Path2D"]
 
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 scale = Vector2( 1.03138, 0.872034 )
