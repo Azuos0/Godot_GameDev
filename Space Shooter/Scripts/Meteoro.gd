@@ -9,14 +9,13 @@ func _ready():
 	set_process(true)
 	add_to_group(Game.GRUPO_INIMIGO)
 	randomize()
-	rot = rand_range(-5, 5)
+	rot = rand_range(-10, 10)
 	pass
 
 func _process(delta):
 	position += Vector2(0, 1) * vel * delta
 	rotate(rot * delta)
 	if position.y > Game.game_view.y + 30:
-		print("destruiu")
 		queue_free()
 	pass
 
@@ -41,5 +40,12 @@ func aplica_dano(valor):
 func _on_destruction_animation_finished(anim_name):
 	
 	if anim_name == "Destruir":
+		print("fim da animação")
 		queue_free()
 
+
+
+func _on_Anim_animation_finished(anim_name):
+	if anim_name == "Destruir":
+		print("fim da animação")
+		queue_free()
