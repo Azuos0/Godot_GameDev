@@ -2,8 +2,8 @@ extends Area2D
 
 var vel = 150
 var rot = 0
-var vida = 2
-var pontos = 10
+export var vida = 2
+export var pontos = 10
 
 func _ready():
 	set_process(true)
@@ -15,6 +15,9 @@ func _ready():
 func _process(delta):
 	position += Vector2(0, 1) * vel * delta
 	rotate(rot * delta)
+	if position.y > Game.game_view.y + 30:
+		print("destruiu")
+		queue_free()
 	pass
 
 func aplica_dano(valor):

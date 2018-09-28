@@ -4,6 +4,10 @@
 [ext_resource path="res://images/PNG/Meteors/meteorBrown_big1.png" type="Texture" id=2]
 [ext_resource path="res://Sounds/Explosion3__007.wav" type="AudioStream" id=3]
 
+
+
+
+
 [sub_resource type="Animation" id=1]
 
 resource_name = "Danificado"

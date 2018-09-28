@@ -6,6 +6,7 @@ const GRUPO_TIRO_INIMIGO = "tiro inimigo"
 
 var score = 0 setget setScore
 var lifes = 3 setget setLifes
+var game_view = OS.get_window_size()
 
 signal score_changed
 signal lifes_changed
