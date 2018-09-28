@@ -29,7 +29,6 @@ func carrega_paths():
 			if path && path is Curve2D:
 					paths.append(path)
 			file_name = dir.get_next()
-	print("Deu tudo certo path" + str(paths.size()))
 
 func carrega_texturas_inimigo():
 	var dir = Directory.new()
@@ -41,4 +40,3 @@ func carrega_texturas_inimigo():
 			if tex && tex is Texture:
 					ini_texs.append(tex)
 			file_name = dir.get_next()
-	print("Deu tudo certo inimigo" + str(ini_texs.size()))
