@@ -53,6 +53,7 @@ func trocar_arma(valor):
 
 func retira_vida(dano):
 	Game.lifes -= dano
+	$Escudo.ativa(4)
 
 func _on_Nave_area_entered(area):
 	if area.is_in_group(Game.GRUPO_INIMIGO):

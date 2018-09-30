@@ -1,10 +1,90 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/Nave.gd" type="Script" id=1]
 [ext_resource path="res://images/PNG/playerShip1_blue.png" type="Texture" id=2]
 [ext_resource path="res://images/PNG/Parts/gun06.png" type="Texture" id=3]
+[ext_resource path="res://images/PNG/Effects/shield3.png" type="Texture" id=4]
 
-[node name="Nave" type="Area2D"]
+[sub_resource type="GDScript" id=3]
+
+resource_name = "EscudoScript"
+script/source = "extends Area2D
+
+var ativo = true
+var life = 3
+
+func _ready():
+	ativa(3)
+	pass
+
+
+func _on_Escudo_area_entered(area):
+	if ativo && area.is_in_group(Game.GRUPO_INIMIGO):
+		area.aplica_dano(3000)
+		desativa()
+	elif ativo && area.is_in_group(Game.GRUPO_TIRO_INIMIGO):
+		area.destroi()
+		dano(1)
+		if life <= 0:
+			desativa()
+
+func ativa(segs):
+	self.show()
+	ativo = true
+	$Timer.wait_time = segs
+	$Timer.start()
+
+func desativa():
+	if($Timer.time_left > 0):
+		$Timer.stop()
+	ativo = false
+	self.hide()
+
+func _on_Timer_timeout():
+	ativo = false
+	self.hide()
+
+func dano(valor):
+	life-= 1"
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 10.0
+
+[sub_resource type="Animation" id=2]
+
+resource_name = "Default"
+length = 0.5
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0.9, 0.9 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("SpriteEscudo:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.657451 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Nave" type="Area2D" index="0"]
 
 position = Vector2( 0, 1.76051 )
 input_pickable = true
@@ -57,6 +137,53 @@ position = Vector2( 0, -63.7605 )
 build_mode = 0
 polygon = PoolVector2Array( -50, -21.7605, -46, 8.23949, -13, 12.2395, -8, 21.2395, 7, 21.2395, 14, 11.2395, 47, 8.23949, 50, -23.7605, 8, -54.7605, -8, -54.7605 )
 
+[node name="Escudo" type="Area2D" parent="." index="7"]
+
+position = Vector2( -1, -19.7605 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+script = SubResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="SpriteEscudo" type="Sprite" parent="Escudo" index="0"]
+
+modulate = Color( 1, 1, 1, 0.657451 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Escudo" index="1"]
+
+visible = false
+position = Vector2( 0, 2 )
+scale = Vector2( 7.13942, 7.0625 )
+shape = SubResource( 1 )
+
+[node name="Anim" type="AnimationPlayer" parent="Escudo" index="2"]
+
+root_node = NodePath("..")
+autoplay = "Default"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/Default = SubResource( 2 )
+blend_times = [  ]
+
+[node name="Timer" type="Timer" parent="Escudo" index="3"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = false
+autostart = false
+
 [connection signal="area_entered" from="." to="." method="_on_Nave_area_entered"]
+
+[connection signal="area_entered" from="Escudo" to="Escudo" method="_on_Escudo_area_entered"]
+
+[connection signal="timeout" from="Escudo/Timer" to="Escudo" method="_on_Timer_timeout"]
 
 
