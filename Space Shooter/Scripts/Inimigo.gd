@@ -10,11 +10,13 @@ func _on_Tiro_timer_timeout():
 	
 	tiro.global_position = $Tiro_pos.global_position
 	Game.getCamera().add_child(tiro)
+	$TiroSFX.play()
 
 func _inicia():
 	$Sprite.texture = Recursos.random_ini_tex()
 
 func _destroi():
+	$ExplosaoSFX.play()
 	$Sprite.hide()
 	$Tiro_timer.stop()
 	$Explosao.get_node("Anim").play("Explosao")

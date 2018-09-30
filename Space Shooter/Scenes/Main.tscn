@@ -142,6 +142,7 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 [node name="Pauser" type="CanvasLayer" parent="." index="0"]
 
 pause_mode = 2
+editor/display_folded = true
 layer = 11
 offset = Vector2( 0, 0 )
 rotation = 0.0
@@ -203,7 +204,6 @@ _sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
 [node name="Camera" type="Camera2D" parent="." index="3"]
 
-editor/display_folded = true
 anchor_mode = 0
 rotating = false
 current = true
