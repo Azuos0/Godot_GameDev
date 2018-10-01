@@ -1,9 +1,6 @@
-extends KinematicBody2D
+extends "res://Engine/Entity.gd"
 
 const SPEED = 70
-
-var movedir = Vector2(0,0)
-var spritedir = "down"
 
 func _physics_process(delta):
 	controls_loop()
@@ -11,15 +8,15 @@ func _physics_process(delta):
 	spritedir_loop()
 	
 	if is_on_wall():
-		if spritedir == "left" && test_move(transform, Vector2(-1,0)):
+		if spritedir == "left" && test_move(transform, Dir.LEFT):
 			anim_switch("push")
-		if spritedir == "right" && test_move(transform, Vector2(1,0)):
+		if spritedir == "right" && test_move(transform, Dir.RIGHT):
 			anim_switch("push")
-		if spritedir == "up" && test_move(transform, Vector2(0,-1)):
+		if spritedir == "up" && test_move(transform, Dir.UP):
 			anim_switch("push")
-		if spritedir == "down" && test_move(transform, Vector2(0,1)):
+		if spritedir == "down" && test_move(transform, Dir.DOWN):
 			anim_switch("push")
-	elif movedir != Vector2(0,0):
+	elif movedir != Dir.CENTER:
 		anim_switch("walk")
 	else:
 		anim_switch("idle")
@@ -32,23 +29,3 @@ func controls_loop():
 	
 	movedir.x = -int(LEFT) + int(RIGHT)
 	movedir.y = -int(UP) + int(DOWN)
-
-func movement_loop():
-	var motion = movedir.normalized() * SPEED
-	move_and_slide(motion, Vector2(0,0))
-
-func spritedir_loop():
-	match movedir:
-		Vector2(-1,0):
-			spritedir = "left"
-		Vector2(1,0):
-			spritedir = "right"
-		Vector2(0,-1):
-			spritedir = "up"
-		Vector2(0,1):
-			spritedir = "down"
-
-func anim_switch(animation):
-	var new_anim = str(animation, spritedir)
-	if $Anim.current_animation != new_anim:
-		$Anim.play(new_anim)
