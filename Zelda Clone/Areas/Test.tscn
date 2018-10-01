@@ -39,4 +39,16 @@ _sections_unfolded = [ "Transform" ]
 
 position = Vector2( 92.0388, 59.9323 )
 
+[node name="Stalfos2" parent="." index="3" instance=ExtResource( 3 )]
+
+position = Vector2( 42.0953, 35.4361 )
+
+[node name="Stalfos3" parent="." index="4" instance=ExtResource( 3 )]
+
+position = Vector2( 121.767, 34.7226 )
+
+[node name="Stalfos4" parent="." index="5" instance=ExtResource( 3 )]
+
+position = Vector2( 87.5201, 35.1983 )
+
 

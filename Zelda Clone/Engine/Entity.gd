@@ -1,13 +1,21 @@
  extends KinematicBody2D
 
 const SPEED = 0
+const TYPE = "ENEMY"
 
 var movedir = Dir.CENTER
 var spritedir = "down"
+var hit_stun = 0
+var knockdir = Dir.CENTER
+var health = 1
 
 func movement_loop():
-	var motion = movedir.normalized() * SPEED
-	move_and_slide(motion, Dir.CENTER)
+	var motion 
+	if hit_stun == 0:
+		motion = movedir.normalized() * SPEED
+	else:
+		motion = knockdir.normalized() * SPEED * 1.5
+	move_and_slide(motion, Vector2(0,0))
 
 func spritedir_loop():
 	match movedir:
@@ -24,3 +32,12 @@ func anim_switch(animation):
 	var new_anim = str(animation, spritedir)
 	if $Anim.current_animation != new_anim:
 		$Anim.play(new_anim)
+
+func damage_loop():
+	if hit_stun > 0:
+		hit_stun -= 1
+	for body in $Hitbox.get_overlapping_bodies():
+		if hit_stun == 0 && body.get("DAMAGE") != null && body.get("TYPE") != TYPE:
+			health -= body.get("DAMAGE")
+			hit_stun = 10
+			knockdir = transform.origin - body.transform.origin
