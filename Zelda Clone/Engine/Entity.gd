@@ -1,20 +1,28 @@
- extends KinematicBody2D
+extends KinematicBody2D
 
 const SPEED = 0
 const TYPE = "ENEMY"
+const MAXHEALTH = 2
 
+var health = MAXHEALTH
 var movedir = Dir.CENTER
 var spritedir = "down"
 var hit_stun = 0
 var knockdir = Dir.CENTER
-var health = 1
+
+var texture_default = null
+var texture_hurt = null
+
+func _ready():
+	texture_default = $Sprite.texture
+	texture_hurt = load($Sprite.texture.get_path().replace(".png", "_hurt.png"))
 
 func movement_loop():
 	var motion 
 	if hit_stun == 0:
 		motion = movedir.normalized() * SPEED
 	else:
-		motion = knockdir.normalized() * SPEED * 1.5
+		motion = knockdir.normalized() * 125
 	move_and_slide(motion, Vector2(0,0))
 
 func spritedir_loop():
@@ -36,6 +44,14 @@ func anim_switch(animation):
 func damage_loop():
 	if hit_stun > 0:
 		hit_stun -= 1
+		$Sprite.texture = texture_hurt
+	else:
+		$Sprite.texture = texture_default
+		if TYPE == "ENEMY" && health <= 0:
+			var death_animation = preload("res://Enemies/Enemy_death.tscn").instance()
+			get_parent().add_child(death_animation)
+			death_animation.global_transform = global_transform  
+			queue_free()
 	for area in $Hitbox.get_overlapping_areas():
 		var body = area.get_parent()
 		if hit_stun == 0 && body.get("DAMAGE") != null && body.get("TYPE") != TYPE:
