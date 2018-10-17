@@ -15,6 +15,7 @@ var texture_hurt = null
 
 func _ready():
 	if TYPE == "ENEMY":
+		set_collision_mask_bit(1,1)
 		set_physics_process(false)
 	texture_default = $Sprite.texture
 	texture_hurt = load($Sprite.texture.get_path().replace(".png", "_hurt.png"))

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Engine/Camera.gd" type="Script" id=1]
 
@@ -6,6 +6,16 @@
 
 custom_solver_bias = 0.0
 extents = Vector2( 80, 64 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 80, 2 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2, 64 )
 
 [node name="Camera" type="Camera2D"]
 
@@ -45,6 +55,9 @@ angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
 _sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area" index="0"]
 
@@ -53,5 +66,36 @@ _sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_lock_": true
 }
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="1"]
+
+position = Vector2( 80, 18 )
+input_pickable = false
+collision_layer = 2
+collision_mask = 0
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Collision" ]
+
+[node name="Top" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+
+shape = SubResource( 2 )
+
+[node name="Bottom" type="CollisionShape2D" parent="StaticBody2D" index="1"]
+
+position = Vector2( 0, 117 )
+shape = SubResource( 2 )
+
+[node name="Left" type="CollisionShape2D" parent="StaticBody2D" index="2"]
+
+position = Vector2( -78, 62 )
+shape = SubResource( 3 )
+
+[node name="Right" type="CollisionShape2D" parent="StaticBody2D" index="3"]
+
+position = Vector2( 78, 62 )
+shape = SubResource( 3 )
 
 

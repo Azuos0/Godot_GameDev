@@ -4,7 +4,7 @@
 [ext_resource path="res://Tiles/Wall.tres" type="TileSet" id=2]
 [ext_resource path="res://Engine/Camera.tscn" type="PackedScene" id=3]
 [ext_resource path="res://player/player.tscn" type="PackedScene" id=4]
-[ext_resource path="res://Enemies/Stalfos.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Tiles/Enemy_tilemap.tscn" type="PackedScene" id=5]
 
 [node name="Node" type="Node" index="0"]
 
@@ -44,8 +44,8 @@ current = true
 position = Vector2( 69.7375, 60.9594 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="Stalfos" parent="." index="4" instance=ExtResource( 5 )]
+[node name="Enemies" parent="." index="4" instance=ExtResource( 5 )]
 
-position = Vector2( 80.8293, -37.7203 )
+tile_data = PoolIntArray( -196603, 0, 0, 327675, 0, 0, 262159, 0, 0 )
 
 

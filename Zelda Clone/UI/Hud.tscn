@@ -12,6 +12,7 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
+visible = false
 position = Vector2( 80, 8 )
 texture = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
