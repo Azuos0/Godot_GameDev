@@ -4,12 +4,16 @@ const SPEED = 70
 const TYPE = "PLAYER"
 var state = "default"
 
+var keys = 0
+
 func _physics_process(delta):
 	match state:
 		"default":
 			state_default()
 		"swing":
 			state_swing()
+	
+	keys = min(keys,9)
 
 func state_default():
 	controls_loop()
