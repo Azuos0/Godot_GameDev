@@ -1,8 +1,5 @@
-extends Area2D
+extends "res://Pickups/Pickup.gd"
 
-func _ready():
-	connect("body_entered", self, "body_entered")
-	pass
 
 func body_entered(body):
 	if body.name == "player" && body.get("keys") < 9:
