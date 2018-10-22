@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 const SPEED = 0
 const TYPE = "ENEMY"
-const MAXHEALTH = 2
+const MAXHEALTH = 1
 
 var health = MAXHEALTH
 var movedir = Dir.CENTER

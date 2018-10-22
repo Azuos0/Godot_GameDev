@@ -1,7 +1,7 @@
 extends "res://Engine/Entity.gd"
 
 const SPEED = 40
-const DAMAGE = 1
+const DAMAGE = 0.5
 
 var move_timer_length = 15
 var move_timer = 0
