@@ -5,7 +5,7 @@
 [ext_resource path="res://UI/number.png" type="Texture" id=3]
 [ext_resource path="res://UI/hearts.png" type="Texture" id=4]
 
-[node name="Hud" type="CanvasLayer" index="0"]
+[node name="Hud" type="CanvasLayer"]
 
 layer = 1
 offset = Vector2( 0, 0 )

@@ -1,2 +1,2 @@
 # Godot_GameDev
-Games developed in godot!
+A bunch of Games development tutorials on godot found in youtube!
