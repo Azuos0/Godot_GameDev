@@ -53,7 +53,6 @@ position = Vector2( 1163.12, 386.346 )
 
 [node name="Path2D" type="Path2D" parent="Paths" index="0"]
 
-editor/display_folded = true
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 rotation = 0.000283158
 curve = SubResource( 1 )
@@ -71,6 +70,8 @@ loop = true
 lookahead = 4.0
 
 [node name="EnemyTank" parent="Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 4 )]
+
+detect_radius = 200
 
 [node name="Path2D2" type="Path2D" parent="Paths" index="1"]
 
@@ -92,5 +93,9 @@ lookahead = 4.0
 [node name="EnemyTank" parent="Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 4 )]
 
 [connection signal="shoot" from="Player" to="." method="_on_tank_shoot"]
+
+[connection signal="shoot" from="Paths/Path2D/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
+
+[connection signal="shoot" from="Paths/Path2D2/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
 
 
