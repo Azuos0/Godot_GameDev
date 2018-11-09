@@ -19,7 +19,7 @@ _sections_unfolded = [ "Collision" ]
 Bullet = ExtResource( 3 )
 max_speed = 200
 gun_cooldown = 0.5
-health = 100
+max_health = 50
 turret_speed = 1.0
 detect_radius = 400
 

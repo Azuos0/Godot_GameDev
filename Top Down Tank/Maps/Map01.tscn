@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Maps/Map.gd" type="Script" id=1]
 [ext_resource path="res://Terrain/terrain_tiles.tres" type="TileSet" id=2]
 [ext_resource path="res://Tanks/Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Tanks/EnemyTank.tscn" type="PackedScene" id=4]
+[ext_resource path="res://UI/HUD.tscn" type="PackedScene" id=5]
 
 [sub_resource type="Curve2D" id=1]
 
@@ -47,7 +48,8 @@ _sections_unfolded = [ "Visibility" ]
 
 [node name="Player" parent="." index="1" instance=ExtResource( 3 )]
 
-position = Vector2( 1163.12, 386.346 )
+position = Vector2( 736.33, 277.408 )
+_sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Paths" type="Node2D" parent="." index="2"]
 
@@ -71,8 +73,6 @@ lookahead = 4.0
 
 [node name="EnemyTank" parent="Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 4 )]
 
-detect_radius = 200
-
 [node name="Path2D2" type="Path2D" parent="Paths" index="1"]
 
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
@@ -91,6 +91,10 @@ loop = true
 lookahead = 4.0
 
 [node name="EnemyTank" parent="Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 4 )]
+
+[node name="HUD" parent="." index="3" instance=ExtResource( 5 )]
+
+[connection signal="health_changed" from="Player" to="HUD" method="update_healthbar"]
 
 [connection signal="shoot" from="Player" to="." method="_on_tank_shoot"]
 
