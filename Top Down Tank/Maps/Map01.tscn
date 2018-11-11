@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Maps/Map.gd" type="Script" id=1]
 [ext_resource path="res://UI/HUD.tscn" type="PackedScene" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Tanks/Player.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Tanks/EnemyTank.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Tanks/GunTurret.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Environment/Obstacle.tscn" type="PackedScene" id=7]
 
 [sub_resource type="Curve2D" id=1]
 
@@ -53,15 +54,20 @@ _sections_unfolded = [ "Visibility" ]
 position = Vector2( 736.33, 277.408 )
 _sections_unfolded = [ "Collision", "Transform" ]
 
-[node name="Paths" type="Node2D" parent="." index="3"]
+[node name="Enemies" type="Node2D" parent="." index="3"]
 
-[node name="Path2D" type="Path2D" parent="Paths" index="0"]
+[node name="Paths" type="Node2D" parent="Enemies" index="0"]
 
+editor/display_folded = true
+
+[node name="Path2D" type="Path2D" parent="Enemies/Paths" index="0"]
+
+editor/display_folded = true
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 rotation = 0.000283158
 curve = SubResource( 1 )
 
-[node name="PathFollow2D" type="PathFollow2D" parent="Paths/Path2D" index="0"]
+[node name="PathFollow2D" type="PathFollow2D" parent="Enemies/Paths/Path2D" index="0"]
 
 position = Vector2( 1726.31, 504.569 )
 rotation = 1.57421
@@ -73,14 +79,15 @@ cubic_interp = true
 loop = true
 lookahead = 4.0
 
-[node name="EnemyTank" parent="Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 5 )]
+[node name="EnemyTank" parent="Enemies/Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 5 )]
 
-[node name="Path2D2" type="Path2D" parent="Paths" index="1"]
+[node name="Path2D2" type="Path2D" parent="Enemies/Paths" index="1"]
 
+editor/display_folded = true
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 curve = SubResource( 2 )
 
-[node name="PathFollow2D" type="PathFollow2D" parent="Paths/Path2D2" index="0"]
+[node name="PathFollow2D" type="PathFollow2D" parent="Enemies/Paths/Path2D2" index="0"]
 
 position = Vector2( 186.659, 401.875 )
 rotation = 1.55998
@@ -92,20 +99,65 @@ cubic_interp = true
 loop = true
 lookahead = 4.0
 
-[node name="EnemyTank" parent="Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 5 )]
+[node name="EnemyTank" parent="Enemies/Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 5 )]
 
-[node name="GunTurret" parent="." index="4" instance=ExtResource( 6 )]
+[node name="GunTurret" parent="Enemies" index="1" instance=ExtResource( 6 )]
 
 position = Vector2( 845.891, -52.8681 )
+
+[node name="Obstacles" type="Node2D" parent="." index="4"]
+
+[node name="Obstacle" parent="Obstacles" index="0" instance=ExtResource( 7 )]
+
+position = Vector2( 786.831, 153.749 )
+
+[node name="Obstacle2" parent="Obstacles" index="1" instance=ExtResource( 7 )]
+
+position = Vector2( 841, 153 )
+
+[node name="Obstacle3" parent="Obstacles" index="2" instance=ExtResource( 7 )]
+
+position = Vector2( 894, 154 )
+
+[node name="Obstacle4" parent="Obstacles" index="3" instance=ExtResource( 7 )]
+
+position = Vector2( 194, 249 )
+type = 8
+
+[node name="Obstacle5" parent="Obstacles" index="4" instance=ExtResource( 7 )]
+
+position = Vector2( 243, 188 )
+type = 8
+
+[node name="Obstacle6" parent="Obstacles" index="5" instance=ExtResource( 7 )]
+
+position = Vector2( 191, 129 )
+type = 8
+
+[node name="Obstacle7" parent="Obstacles" index="6" instance=ExtResource( 7 )]
+
+position = Vector2( -197.239, 316.861 )
+rotation = 0.620352
+_sections_unfolded = [ "Pickable" ]
+type = 11
+
+[node name="Obstacle8" parent="Obstacles" index="7" instance=ExtResource( 7 )]
+
+position = Vector2( 331.446, 958.496 )
+rotation = -3.05441
+_sections_unfolded = [ "Pickable" ]
+type = 11
+
+[connection signal="dead" from="Player" to="." method="_on_Player_dead"]
 
 [connection signal="health_changed" from="Player" to="HUD" method="update_healthbar"]
 
 [connection signal="shoot" from="Player" to="." method="_on_tank_shoot"]
 
-[connection signal="shoot" from="Paths/Path2D/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
+[connection signal="shoot" from="Enemies/Paths/Path2D/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
 
-[connection signal="shoot" from="Paths/Path2D2/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
+[connection signal="shoot" from="Enemies/Paths/Path2D2/PathFollow2D/EnemyTank" to="." method="_on_tank_shoot"]
 
-[connection signal="shoot" from="GunTurret" to="." method="_on_tank_shoot"]
+[connection signal="shoot" from="Enemies/GunTurret" to="." method="_on_tank_shoot"]
 
 

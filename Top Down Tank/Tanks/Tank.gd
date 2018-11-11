@@ -41,6 +41,7 @@ func take_damage(amount):
 	health -= amount
 	emit_signal("health_changed", health * 100/max_health)
 	if health <= 0:
+		emit_signal('dead')
 		explode()
 
 func explode():
