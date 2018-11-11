@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Bullets/Bullet.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Assets/onlyObjects_retina_rotated.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 10, 4 )
+
+[node name="TurretBullet" index="0" instance=ExtResource( 1 )]
+
+speed = 900
+damage = 3
+lifetime = 0.3
+
+[node name="Sprite" parent="." index="0"]
+
+rotation = 3.14159
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 573, 394, 20, 8 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+
+shape = SubResource( 1 )
+
+
