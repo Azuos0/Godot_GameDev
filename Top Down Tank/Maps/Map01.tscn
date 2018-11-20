@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Maps/Map.gd" type="Script" id=1]
 [ext_resource path="res://UI/HUD.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Bullets/Missile.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Tanks/GunTurret.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Environment/Obstacle.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Itens/Pickups.tscn" type="PackedScene" id=9]
 
 [sub_resource type="Curve2D" id=1]
 
@@ -59,8 +60,11 @@ _sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Paths" type="Node2D" parent="Enemies" index="0"]
 
+editor/display_folded = true
+
 [node name="Path2D" type="Path2D" parent="Enemies/Paths" index="0"]
 
+editor/display_folded = true
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 rotation = 0.000283158
 curve = SubResource( 1 )
@@ -150,6 +154,16 @@ position = Vector2( 331.446, 958.496 )
 rotation = -3.05441
 _sections_unfolded = [ "Pickable" ]
 type = 11
+
+[node name="Itens" type="Node2D" parent="." index="5"]
+
+[node name="Pickups" parent="Itens" index="0" instance=ExtResource( 9 )]
+
+position = Vector2( 541, 700 )
+
+[node name="Pickups2" parent="Itens" index="1" instance=ExtResource( 9 )]
+
+position = Vector2( 1202, 323 )
 
 [connection signal="dead" from="Player" to="." method="_on_Player_dead"]
 
