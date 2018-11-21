@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Itens/Pickups.gd" type="Script" id=1]
-[ext_resource path="res://Assets/onlyObjects_retina_rotated.png" type="Texture" id=2]
+[ext_resource path="res://Assets/shadow_circle.png" type="Texture" id=2]
+[ext_resource path="res://Assets/onlyObjects_retina_rotated.png" type="Texture" id=3]
+[ext_resource path="res://Assets/wrench_white.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -26,6 +28,54 @@ tracks/0/keys = {
 "update": 0,
 "values": [ Vector2( 0, 0 ), Vector2( 0, -20 ) ]
 }
+tracks/1/type = "value"
+tracks/1/path = NodePath("Shadow:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.25, 0.5 ), Vector2( 0.166667, 0.333333 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Shadow:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0.6 ), Color( 1, 1, 1, 0.375686 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Icon:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.7, 0.7 ), Vector2( 0.5, 0.5 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Icon:self_modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
 
 [node name="Pickups" type="Area2D"]
 
@@ -40,22 +90,38 @@ audio_bus_override = false
 audio_bus_name = "Master"
 script = ExtResource( 1 )
 _sections_unfolded = [ "Collision" ]
-type = null
+type = 0
 amount = Vector2( 10, 25 )
 
-[node name="Sprite" type="Sprite" parent="." index="0"]
+[node name="Shadow" type="Sprite" parent="." index="0"]
 
-position = Vector2( 0, -0.363911 )
+self_modulate = Color( 1, 1, 1, 0.6 )
+position = Vector2( 0, 25 )
+scale = Vector2( 0.25, 0.5 )
 texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+
+texture = ExtResource( 3 )
 region_enabled = true
 region_rect = Rect2( 420, 134, 56, 56 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+[node name="Icon" type="Sprite" parent="." index="2"]
 
+modulate = Color( 0.0938416, 0.960938, 0.249648, 1 )
+position = Vector2( 0, -85 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="3"]
+
+visible = false
 shape = SubResource( 1 )
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="4"]
 
 root_node = NodePath("..")
 autoplay = "bounce"

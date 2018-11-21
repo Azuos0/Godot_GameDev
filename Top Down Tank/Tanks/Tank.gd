@@ -59,7 +59,11 @@ func explode():
 	$Body.hide()
 	$Explosion.show()
 	$Explosion.play()
-	
+
+func heal(amount):
+	health += amount
+	health = clamp(health, 0, max_health)
+	emit_signal("health_changed", health * 100/max_health)
 
 func _on_GunTimer_timeout():
 	can_shoot = true
