@@ -84,6 +84,8 @@ lookahead = 4.0
 [node name="EnemyTank" parent="Enemies/Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 5 )]
 
 Bullet = ExtResource( 6 )
+max_ammo = 20
+ammo = -1
 gun_shots = 3
 
 [node name="Path2D2" type="Path2D" parent="Enemies/Paths" index="1"]
@@ -106,9 +108,14 @@ lookahead = 4.0
 
 [node name="EnemyTank" parent="Enemies/Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 5 )]
 
+max_ammo = 20
+ammo = -1
+
 [node name="GunTurret" parent="Enemies" index="1" instance=ExtResource( 7 )]
 
 position = Vector2( 845.891, -52.8681 )
+max_ammo = 20
+ammo = -1
 
 [node name="Obstacles" type="Node2D" parent="." index="4"]
 
@@ -164,6 +171,9 @@ position = Vector2( 541, 700 )
 [node name="Pickups2" parent="Itens" index="1" instance=ExtResource( 9 )]
 
 position = Vector2( 1202, 323 )
+type = 1
+
+[connection signal="ammo_changed" from="Player" to="HUD" method="update_ammo"]
 
 [connection signal="dead" from="Player" to="." method="_on_Player_dead"]
 
