@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tileset-wesley.png-d7044969d3e26e1ca2435ed6b30af1d6.stex"
+path="res://.import/tileset-wesley2.png-b3c2c1c470251aafd59ecbb712a2c00f.stex"
 
 [deps]
 
-source_file="res://Assets/tileset-wesley.png"
-dest_files=[ "res://.import/tileset-wesley.png-d7044969d3e26e1ca2435ed6b30af1d6.stex" ]
+source_file="res://Assets/tileset-wesley2.png"
+dest_files=[ "res://.import/tileset-wesley2.png-b3c2c1c470251aafd59ecbb712a2c00f.stex" ]
 
 [params]
 

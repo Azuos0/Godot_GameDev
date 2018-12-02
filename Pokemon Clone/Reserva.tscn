@@ -1,0 +1,5306 @@
+[gd_scene load_steps=51 format=2]
+
+[ext_resource path="res://Assets/tileset-wesley.png" type="Texture" id=1]
+[ext_resource path="res://Assets/tileset-wesley2.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=42]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=43]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=38]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 2 )
+
+[sub_resource type="RectangleShape2D" id=48]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.2 )
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=10]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=33]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=34]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=35]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=36]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=12]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=13]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=14]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=18]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=19]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=20]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=21]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=22]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=23]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=24]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=25]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=26]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=27]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=28]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=29]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=30]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=31]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=32]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=37]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=15]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=44]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.5 )
+
+[sub_resource type="RectangleShape2D" id=45]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=39]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2, 8 )
+
+[sub_resource type="RectangleShape2D" id=40]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2, 8 )
+
+[sub_resource type="RectangleShape2D" id=16]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=17]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=46]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.5 )
+
+[sub_resource type="RectangleShape2D" id=47]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=41]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 2 )
+
+[node name="Reserva" type="Node2D" index="0"]
+
+[node name="snow_path_top_left" type="Sprite" parent="." index="0"]
+
+position = Vector2( 8, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 7
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_path_top_right" type="Sprite" parent="." index="1"]
+
+position = Vector2( 24, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 8
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_green_upleft" type="Sprite" parent="." index="2"]
+
+position = Vector2( 56, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 10
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_green_upright" type="Sprite" parent="." index="3"]
+
+position = Vector2( 72, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 11
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite5" type="Sprite" parent="." index="4"]
+
+position = Vector2( 104, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 16
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite6" type="Sprite" parent="." index="5"]
+
+position = Vector2( 119.956, 8.0599 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 17
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite7" type="Sprite" parent="." index="6"]
+
+position = Vector2( 152, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 19
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite8" type="Sprite" parent="." index="7"]
+
+position = Vector2( 168, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 20
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite9" type="Sprite" parent="." index="8"]
+
+position = Vector2( 200.015, 8.0599 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 22
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite10" type="Sprite" parent="." index="9"]
+
+position = Vector2( 216.038, 8.03253 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 23
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite11" type="Sprite" parent="." index="10"]
+
+position = Vector2( 248, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 25
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite12" type="Sprite" parent="." index="11"]
+
+position = Vector2( 264, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 26
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite13" type="Sprite" parent="." index="12"]
+
+position = Vector2( 296, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 28
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite14" type="Sprite" parent="." index="13"]
+
+position = Vector2( 312, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 29
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite15" type="Sprite" parent="." index="14"]
+
+position = Vector2( 344, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 31
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite16" type="Sprite" parent="." index="15"]
+
+position = Vector2( 360, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 32
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite17" type="Sprite" parent="." index="16"]
+
+position = Vector2( 392, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 34
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite18" type="Sprite" parent="." index="17"]
+
+position = Vector2( 408, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 35
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite19" type="Sprite" parent="." index="18"]
+
+position = Vector2( 440, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 37
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite20" type="Sprite" parent="." index="19"]
+
+position = Vector2( 456, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 38
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite21" type="Sprite" parent="." index="20"]
+
+position = Vector2( 488, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 40
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite22" type="Sprite" parent="." index="21"]
+
+position = Vector2( 504, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 41
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite23" type="Sprite" parent="." index="22"]
+
+position = Vector2( 536, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 43
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite24" type="Sprite" parent="." index="23"]
+
+position = Vector2( 552, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 44
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite25" type="Sprite" parent="." index="24"]
+
+position = Vector2( 584, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 46
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite26" type="Sprite" parent="." index="25"]
+
+position = Vector2( 600, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 47
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite27" type="Sprite" parent="." index="26"]
+
+position = Vector2( 632, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 49
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite28" type="Sprite" parent="." index="27"]
+
+position = Vector2( 648, 8 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 50
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite29" type="Sprite" parent="." index="28"]
+
+position = Vector2( -24, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 55
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass1" type="Sprite" parent="." index="29"]
+
+position = Vector2( -120, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 105
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_flower1" type="Sprite" parent="." index="30"]
+
+position = Vector2( -88, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 159
+_sections_unfolded = [ "Animation" ]
+
+[node name="stone" type="Sprite" parent="." index="31"]
+
+visible = false
+position = Vector2( -88, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 211
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="stone" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stone/StaticBody2D" index="0"]
+
+shape = SubResource( 42 )
+
+[node name="sign_right_coner" type="Sprite" parent="." index="32"]
+
+visible = false
+position = Vector2( -88, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 263
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="sign_right_coner" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sign_right_coner/StaticBody2D" index="0"]
+
+shape = SubResource( 43 )
+
+[node name="bench_top_right" type="Sprite" parent="." index="33"]
+
+position = Vector2( -88, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 315
+_sections_unfolded = [ "Animation" ]
+
+[node name="bench_bottom_right" type="Sprite" parent="." index="34"]
+
+visible = false
+position = Vector2( -88, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 367
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bench_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom_right/StaticBody2D" index="0"]
+
+position = Vector2( 0, -6 )
+shape = SubResource( 38 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="stairs_summer_middle" type="Sprite" parent="." index="35"]
+
+position = Vector2( -72, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 420
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite67" type="Sprite" parent="." index="36"]
+
+position = Vector2( 24, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 114
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite149" type="Sprite" parent="." index="37"]
+
+position = Vector2( 56, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 168
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite183" type="Sprite" parent="." index="38"]
+
+position = Vector2( 56, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 220
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_snow" type="Sprite" parent="." index="39"]
+
+position = Vector2( 56, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 272
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite259" type="Sprite" parent="." index="40"]
+
+position = Vector2( 56, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 324
+_sections_unfolded = [ "Animation" ]
+
+[node name="brown_stone_snow1" type="Sprite" parent="." index="41"]
+
+position = Vector2( 56, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 376
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_snow_right_1" type="Sprite" parent="." index="42"]
+
+position = Vector2( 72, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 429
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite80" type="Sprite" parent="." index="43"]
+
+position = Vector2( 168, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 123
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite157" type="Sprite" parent="." index="44"]
+
+position = Vector2( 200, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 177
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite204" type="Sprite" parent="." index="45"]
+
+position = Vector2( 200, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 229
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_top_left" type="Sprite" parent="." index="46"]
+
+position = Vector2( 200, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 281
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_center_left" type="Sprite" parent="." index="47"]
+
+position = Vector2( 200, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 333
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_bottom_left" type="Sprite" parent="." index="48"]
+
+position = Vector2( 200, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 385
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite375" type="Sprite" parent="." index="49"]
+
+position = Vector2( 216, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 438
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite93" type="Sprite" parent="." index="50"]
+
+position = Vector2( 312, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 132
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite127" type="Sprite" parent="." index="51"]
+
+position = Vector2( 344, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 186
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite168" type="Sprite" parent="." index="52"]
+
+position = Vector2( 344, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 238
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite253" type="Sprite" parent="." index="53"]
+
+position = Vector2( 360, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 291
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite260" type="Sprite" parent="." index="54"]
+
+position = Vector2( 344, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 342
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite311" type="Sprite" parent="." index="55"]
+
+position = Vector2( 344, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 394
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite97" type="Sprite" parent="." index="56"]
+
+position = Vector2( 456, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 141
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite124" type="Sprite" parent="." index="57"]
+
+position = Vector2( 488, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 195
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite165" type="Sprite" parent="." index="58"]
+
+position = Vector2( 488, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 247
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_umbrela_top_right" type="Sprite" parent="." index="59"]
+
+position = Vector2( 504, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 300
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_umbrela_center_left" type="Sprite" parent="." index="60"]
+
+position = Vector2( 488, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 351
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_bench_bottom" type="Sprite" parent="." index="61"]
+
+position = Vector2( 424, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 451
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass2" type="Sprite" parent="." index="62"]
+
+position = Vector2( -104, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 106
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_flowers2" type="Sprite" parent="." index="63"]
+
+position = Vector2( -72, 56 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 160
+_sections_unfolded = [ "Animation" ]
+
+[node name="pole_top_1" type="Sprite" parent="." index="64"]
+
+position = Vector2( -72, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 212
+_sections_unfolded = [ "Animation" ]
+
+[node name="pole_bottom_1" type="Sprite" parent="." index="65"]
+
+position = Vector2( -72, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 264
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pole_bottom_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pole_bottom_1/StaticBody2D" index="0"]
+
+shape = SubResource( 48 )
+
+[node name="grass5" type="Sprite" parent="." index="66"]
+
+position = Vector2( -72, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 316
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_sand" type="Sprite" parent="." index="67"]
+
+position = Vector2( -72, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 368
+_sections_unfolded = [ "Animation" ]
+
+[node name="stairs_summer_right" type="Sprite" parent="." index="68"]
+
+position = Vector2( -56, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 421
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite74" type="Sprite" parent="." index="69"]
+
+position = Vector2( 40, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 115
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite154" type="Sprite" parent="." index="70"]
+
+position = Vector2( 72, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 169
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite206" type="Sprite" parent="." index="71"]
+
+position = Vector2( 72, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 221
+_sections_unfolded = [ "Animation" ]
+
+[node name="tall_snow_grass_3" type="Sprite" parent="." index="72"]
+
+position = Vector2( 72, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 273
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite265" type="Sprite" parent="." index="73"]
+
+position = Vector2( 72, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 325
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_bush" type="Sprite" parent="." index="74"]
+
+position = Vector2( 72, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 377
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite374" type="Sprite" parent="." index="75"]
+
+position = Vector2( 88, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 430
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite84" type="Sprite" parent="." index="76"]
+
+position = Vector2( 184, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 124
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite147" type="Sprite" parent="." index="77"]
+
+position = Vector2( 216, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 178
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite189" type="Sprite" parent="." index="78"]
+
+position = Vector2( 216, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 230
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_top_center" type="Sprite" parent="." index="79"]
+
+position = Vector2( 216, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 282
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_center" type="Sprite" parent="." index="80"]
+
+position = Vector2( 216, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 334
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_bottom_center" type="Sprite" parent="." index="81"]
+
+position = Vector2( 216, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 386
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite365" type="Sprite" parent="." index="82"]
+
+position = Vector2( 232, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 439
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite90" type="Sprite" parent="." index="83"]
+
+position = Vector2( 328, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 133
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite120" type="Sprite" parent="." index="84"]
+
+position = Vector2( 360, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 187
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite171" type="Sprite" parent="." index="85"]
+
+position = Vector2( 360, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 239
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite244" type="Sprite" parent="." index="86"]
+
+position = Vector2( 376, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 292
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite264" type="Sprite" parent="." index="87"]
+
+position = Vector2( 360, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 343
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite315" type="Sprite" parent="." index="88"]
+
+position = Vector2( 360, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 395
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite94" type="Sprite" parent="." index="89"]
+
+position = Vector2( 472, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 142
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite128" type="Sprite" parent="." index="90"]
+
+position = Vector2( 504, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 196
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite179" type="Sprite" parent="." index="91"]
+
+position = Vector2( 504, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 248
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_umbrela_top_left" type="Sprite" parent="." index="92"]
+
+position = Vector2( 520, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 301
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_umbrela_center_right" type="Sprite" parent="." index="93"]
+
+position = Vector2( 504, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 352
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_bench_bottom" type="Sprite" parent="." index="94"]
+
+position = Vector2( 440, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 452
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass3" type="Sprite" parent="." index="95"]
+
+position = Vector2( -88, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 107
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_bush2" type="Sprite" parent="." index="96"]
+
+position = Vector2( -56, 56 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 161
+_sections_unfolded = [ "Animation" ]
+
+[node name="pole_top_2" type="Sprite" parent="." index="97"]
+
+position = Vector2( -56, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 213
+_sections_unfolded = [ "Animation" ]
+
+[node name="pole_bottom_2" type="Sprite" parent="." index="98"]
+
+position = Vector2( -56, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 265
+_sections_unfolded = [ "Animation" ]
+
+[node name="tall_grass_2" type="Sprite" parent="." index="99"]
+
+position = Vector2( -56, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 317
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite308" type="Sprite" parent="." index="100"]
+
+position = Vector2( -56, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 369
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite368" type="Sprite" parent="." index="101"]
+
+position = Vector2( -40, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 422
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite68" type="Sprite" parent="." index="102"]
+
+position = Vector2( 56, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 116
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite152" type="Sprite" parent="." index="103"]
+
+position = Vector2( 88, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 170
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite203" type="Sprite" parent="." index="104"]
+
+position = Vector2( 88, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 222
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite222" type="Sprite" parent="." index="105"]
+
+position = Vector2( 88, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 274
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite268" type="Sprite" parent="." index="106"]
+
+position = Vector2( 88, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 326
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite319" type="Sprite" parent="." index="107"]
+
+position = Vector2( 88, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 378
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite325" type="Sprite" parent="." index="108"]
+
+position = Vector2( 104, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 431
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite82" type="Sprite" parent="." index="109"]
+
+position = Vector2( 200, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 125
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite144" type="Sprite" parent="." index="110"]
+
+position = Vector2( 232, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 179
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite198" type="Sprite" parent="." index="111"]
+
+position = Vector2( 232, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 231
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_top_right" type="Sprite" parent="." index="112"]
+
+position = Vector2( 232, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 283
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_center_right" type="Sprite" parent="." index="113"]
+
+position = Vector2( 232, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 335
+_sections_unfolded = [ "Animation" ]
+
+[node name="white_wooden_fence_bottom_right" type="Sprite" parent="." index="114"]
+
+position = Vector2( 232, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 387
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite372" type="Sprite" parent="." index="115"]
+
+position = Vector2( 248, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 440
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite88" type="Sprite" parent="." index="116"]
+
+position = Vector2( 344, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 134
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite126" type="Sprite" parent="." index="117"]
+
+position = Vector2( 376, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 188
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite178" type="Sprite" parent="." index="118"]
+
+position = Vector2( 376, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 240
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite254" type="Sprite" parent="." index="119"]
+
+position = Vector2( 392, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 293
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite271" type="Sprite" parent="." index="120"]
+
+position = Vector2( 376, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 344
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite349" type="Sprite" parent="." index="121"]
+
+position = Vector2( 376, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 396
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite96" type="Sprite" parent="." index="122"]
+
+position = Vector2( 488, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 143
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite125" type="Sprite" parent="." index="123"]
+
+position = Vector2( 520, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 197
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite164" type="Sprite" parent="." index="124"]
+
+position = Vector2( 520, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 249
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_umbrela_top_right" type="Sprite" parent="." index="125"]
+
+position = Vector2( 536, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 302
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_umbrela_center_left" type="Sprite" parent="." index="126"]
+
+position = Vector2( 520, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 353
+_sections_unfolded = [ "Animation" ]
+
+[node name="tall_grass1" type="Sprite" parent="." index="127"]
+
+position = Vector2( -72, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 108
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite113" type="Sprite" parent="." index="128"]
+
+position = Vector2( -40, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 162
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite162" type="Sprite" parent="." index="129"]
+
+position = Vector2( -40, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 214
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite243" type="Sprite" parent="." index="130"]
+
+position = Vector2( -40, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 266
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite276" type="Sprite" parent="." index="131"]
+
+position = Vector2( -40, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 318
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite340" type="Sprite" parent="." index="132"]
+
+position = Vector2( -40, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 370
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite377" type="Sprite" parent="." index="133"]
+
+position = Vector2( -24, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 423
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite70" type="Sprite" parent="." index="134"]
+
+position = Vector2( 72, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 117
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite151" type="Sprite" parent="." index="135"]
+
+position = Vector2( 104, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 171
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite196" type="Sprite" parent="." index="136"]
+
+position = Vector2( 104, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 223
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_top_left" type="Sprite" parent="." index="137"]
+
+position = Vector2( 104, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 275
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_center_left" type="Sprite" parent="." index="138"]
+
+position = Vector2( 104, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 327
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_bottom_left" type="Sprite" parent="." index="139"]
+
+position = Vector2( 104, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 379
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite379" type="Sprite" parent="." index="140"]
+
+position = Vector2( 120, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 432
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite81" type="Sprite" parent="." index="141"]
+
+position = Vector2( 216, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 126
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite143" type="Sprite" parent="." index="142"]
+
+position = Vector2( 248, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 180
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite201" type="Sprite" parent="." index="143"]
+
+position = Vector2( 248, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 232
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite220" type="Sprite" parent="." index="144"]
+
+position = Vector2( 248, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 284
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite277" type="Sprite" parent="." index="145"]
+
+position = Vector2( 248, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 336
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite339" type="Sprite" parent="." index="146"]
+
+position = Vector2( 248, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 388
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite376" type="Sprite" parent="." index="147"]
+
+position = Vector2( 264, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 441
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_bench_top" type="Sprite" parent="." index="148"]
+
+position = Vector2( 328, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 444
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite87" type="Sprite" parent="." index="149"]
+
+position = Vector2( 360, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 135
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite130" type="Sprite" parent="." index="150"]
+
+position = Vector2( 392, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 189
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite173" type="Sprite" parent="." index="151"]
+
+position = Vector2( 392, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 241
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite248" type="Sprite" parent="." index="152"]
+
+position = Vector2( 408, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 294
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite275" type="Sprite" parent="." index="153"]
+
+position = Vector2( 392, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 345
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_bench_top" type="Sprite" parent="." index="154"]
+
+position = Vector2( 392, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 397
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_bench_bottom" type="Sprite" parent="." index="155"]
+
+position = Vector2( 328, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 445
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite99" type="Sprite" parent="." index="156"]
+
+position = Vector2( 504, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 144
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite132" type="Sprite" parent="." index="157"]
+
+position = Vector2( 536, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 198
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite174" type="Sprite" parent="." index="158"]
+
+position = Vector2( 536, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 250
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_umbrela_top_left" type="Sprite" parent="." index="159"]
+
+position = Vector2( 552, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 303
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_umbrela_center_right" type="Sprite" parent="." index="160"]
+
+position = Vector2( 536, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 354
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass4" type="Sprite" parent="." index="161"]
+
+position = Vector2( -56, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 109
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite112" type="Sprite" parent="." index="162"]
+
+position = Vector2( -24, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 163
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite161" type="Sprite" parent="." index="163"]
+
+position = Vector2( -24, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 215
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite232" type="Sprite" parent="." index="164"]
+
+position = Vector2( -24, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 267
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite280" type="Sprite" parent="." index="165"]
+
+position = Vector2( -24, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 319
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite353" type="Sprite" parent="." index="166"]
+
+position = Vector2( -24, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 371
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite357" type="Sprite" parent="." index="167"]
+
+position = Vector2( -8, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 424
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite69" type="Sprite" parent="." index="168"]
+
+position = Vector2( 88, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 118
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite148" type="Sprite" parent="." index="169"]
+
+position = Vector2( 120, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 172
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite193" type="Sprite" parent="." index="170"]
+
+position = Vector2( 120, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 224
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_top_center" type="Sprite" parent="." index="171"]
+
+position = Vector2( 120, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 276
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_center" type="Sprite" parent="." index="172"]
+
+position = Vector2( 120, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 328
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_bottom_center" type="Sprite" parent="." index="173"]
+
+position = Vector2( 120, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 380
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_stairs_left" type="Sprite" parent="." index="174"]
+
+position = Vector2( 136, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 433
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite79" type="Sprite" parent="." index="175"]
+
+position = Vector2( 232, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 127
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite156" type="Sprite" parent="." index="176"]
+
+position = Vector2( 264, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 181
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite205" type="Sprite" parent="." index="177"]
+
+position = Vector2( 264, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 233
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite213" type="Sprite" parent="." index="178"]
+
+position = Vector2( 264, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 285
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite281" type="Sprite" parent="." index="179"]
+
+position = Vector2( 264, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 337
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite338" type="Sprite" parent="." index="180"]
+
+position = Vector2( 264, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 389
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite92" type="Sprite" parent="." index="181"]
+
+position = Vector2( 376, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 136
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite136" type="Sprite" parent="." index="182"]
+
+position = Vector2( 408, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 190
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite197" type="Sprite" parent="." index="183"]
+
+position = Vector2( 408, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 242
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_shell" type="Sprite" parent="." index="184"]
+
+position = Vector2( 424, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 295
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite279" type="Sprite" parent="." index="185"]
+
+position = Vector2( 408, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 346
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_bench_top" type="Sprite" parent="." index="186"]
+
+position = Vector2( 408, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 398
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_shell" type="Sprite" parent="." index="187"]
+
+position = Vector2( 344, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 446
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite100" type="Sprite" parent="." index="188"]
+
+position = Vector2( 520, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 145
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite119" type="Sprite" parent="." index="189"]
+
+position = Vector2( 552, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 199
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite170" type="Sprite" parent="." index="190"]
+
+position = Vector2( 552, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 251
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_umbrela_top_right" type="Sprite" parent="." index="191"]
+
+position = Vector2( 568, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 304
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_umbrela_center_left" type="Sprite" parent="." index="192"]
+
+position = Vector2( 552, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 355
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite63" type="Sprite" parent="." index="193"]
+
+position = Vector2( -40, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 110
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite116" type="Sprite" parent="." index="194"]
+
+position = Vector2( -8, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 164
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite177" type="Sprite" parent="." index="195"]
+
+position = Vector2( -8, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 216
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_sign_1" type="Sprite" parent="." index="196"]
+
+position = Vector2( -8, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 268
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite284" type="Sprite" parent="." index="197"]
+
+position = Vector2( -8, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 320
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite331" type="Sprite" parent="." index="198"]
+
+position = Vector2( -8, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 372
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_sign_stone_1" type="Sprite" parent="." index="199"]
+
+position = Vector2( 8, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 425
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite73" type="Sprite" parent="." index="200"]
+
+position = Vector2( 104, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 119
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite145" type="Sprite" parent="." index="201"]
+
+position = Vector2( 136, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 173
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite187" type="Sprite" parent="." index="202"]
+
+position = Vector2( 136, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 225
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_top_right" type="Sprite" parent="." index="203"]
+
+position = Vector2( 136, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 277
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_center_right" type="Sprite" parent="." index="204"]
+
+position = Vector2( 136, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 329
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_mountain_bottom_right" type="Sprite" parent="." index="205"]
+
+position = Vector2( 136, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 381
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_stairs_center" type="Sprite" parent="." index="206"]
+
+position = Vector2( 152, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 434
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite78" type="Sprite" parent="." index="207"]
+
+position = Vector2( 248, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 128
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite146" type="Sprite" parent="." index="208"]
+
+position = Vector2( 280, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 182
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite200" type="Sprite" parent="." index="209"]
+
+position = Vector2( 280, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 234
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite211" type="Sprite" parent="." index="210"]
+
+position = Vector2( 280, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 286
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite283" type="Sprite" parent="." index="211"]
+
+position = Vector2( 280, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 338
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite334" type="Sprite" parent="." index="212"]
+
+position = Vector2( 280, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 390
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_and_rock_1" type="Sprite" parent="." index="213"]
+
+position = Vector2( 312, 135 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 443
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite89" type="Sprite" parent="." index="214"]
+
+position = Vector2( 392, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 137
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite129" type="Sprite" parent="." index="215"]
+
+position = Vector2( 424, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 191
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite169" type="Sprite" parent="." index="216"]
+
+position = Vector2( 424, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 243
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_grass" type="Sprite" parent="." index="217"]
+
+position = Vector2( 440, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 296
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_tall_grass" type="Sprite" parent="." index="218"]
+
+position = Vector2( 424, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 347
+_sections_unfolded = [ "Animation" ]
+
+[node name="orange_beach_bench_top" type="Sprite" parent="." index="219"]
+
+position = Vector2( 424, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 399
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_star" type="Sprite" parent="." index="220"]
+
+position = Vector2( 360, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 447
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite98" type="Sprite" parent="." index="221"]
+
+position = Vector2( 536, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 146
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite131" type="Sprite" parent="." index="222"]
+
+position = Vector2( 568, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 200
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite176" type="Sprite" parent="." index="223"]
+
+position = Vector2( 568, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 252
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite249" type="Sprite" parent="." index="224"]
+
+position = Vector2( 584, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 305
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_umbrela_center_right" type="Sprite" parent="." index="225"]
+
+position = Vector2( 568, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 356
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite384" type="Sprite" parent="." index="226"]
+
+position = Vector2( 280, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 456
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite385" type="Sprite" parent="." index="227"]
+
+position = Vector2( 280, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 508
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite390" type="Sprite" parent="." index="228"]
+
+position = Vector2( 296, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 509
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite103" type="Sprite" parent="." index="229"]
+
+position = Vector2( 600, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 150
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite121" type="Sprite" parent="." index="230"]
+
+position = Vector2( 632, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 204
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite167" type="Sprite" parent="." index="231"]
+
+position = Vector2( 632, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 256
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite251" type="Sprite" parent="." index="232"]
+
+position = Vector2( 648, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 309
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite289" type="Sprite" parent="." index="233"]
+
+position = Vector2( 632, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 360
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite293" type="Sprite" parent="." index="234"]
+
+position = Vector2( 648, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 361
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite64" type="Sprite" parent="." index="235"]
+
+position = Vector2( -24, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 111
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite114" type="Sprite" parent="." index="236"]
+
+position = Vector2( 8, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 165
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite166" type="Sprite" parent="." index="237"]
+
+position = Vector2( 8, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 217
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_top_left" type="Sprite" parent="." index="238"]
+
+position = Vector2( 8, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 269
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_center_left" type="Sprite" parent="." index="239"]
+
+position = Vector2( 8, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 321
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_bottom_left" type="Sprite" parent="." index="240"]
+
+position = Vector2( 8, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 373
+_sections_unfolded = [ "Animation" ]
+
+[node name="tall_snow_grass_1" type="Sprite" parent="." index="241"]
+
+position = Vector2( 24, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 426
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite71" type="Sprite" parent="." index="242"]
+
+position = Vector2( 120, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 120
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite140" type="Sprite" parent="." index="243"]
+
+position = Vector2( 152, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 174
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite192" type="Sprite" parent="." index="244"]
+
+position = Vector2( 152, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 226
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_top_left" type="Sprite" parent="." index="245"]
+
+position = Vector2( 152, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 278
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_center_left2" type="Sprite" parent="." index="246"]
+
+position = Vector2( 152, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 330
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_bottom_left" type="Sprite" parent="." index="247"]
+
+position = Vector2( 152, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 382
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_stairs_right" type="Sprite" parent="." index="248"]
+
+position = Vector2( 168, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 435
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite76" type="Sprite" parent="." index="249"]
+
+position = Vector2( 264, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 129
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite142" type="Sprite" parent="." index="250"]
+
+position = Vector2( 296, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 183
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite188" type="Sprite" parent="." index="251"]
+
+position = Vector2( 296, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 235
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite229" type="Sprite" parent="." index="252"]
+
+position = Vector2( 296, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 287
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite287" type="Sprite" parent="." index="253"]
+
+position = Vector2( 296, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 339
+_sections_unfolded = [ "Animation" ]
+
+[node name="swamp_tall_grass" type="Sprite" parent="." index="254"]
+
+position = Vector2( 296, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 391
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite86" type="Sprite" parent="." index="255"]
+
+position = Vector2( 408, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 138
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite137" type="Sprite" parent="." index="256"]
+
+position = Vector2( 440, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 192
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite194" type="Sprite" parent="." index="257"]
+
+position = Vector2( 440, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 244
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_umbrela_top_left" type="Sprite" parent="." index="258"]
+
+position = Vector2( 456, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 297
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_star" type="Sprite" parent="." index="259"]
+
+position = Vector2( 440, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 348
+_sections_unfolded = [ "Animation" ]
+
+[node name="green_beach_bench_top" type="Sprite" parent="." index="260"]
+
+position = Vector2( 440, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 400
+_sections_unfolded = [ "Animation" ]
+
+[node name="water_and_rock_2" type="Sprite" parent="." index="261"]
+
+position = Vector2( 376, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 448
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite101" type="Sprite" parent="." index="262"]
+
+position = Vector2( 552, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 147
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite133" type="Sprite" parent="." index="263"]
+
+position = Vector2( 584, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 201
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite191" type="Sprite" parent="." index="264"]
+
+position = Vector2( 584, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 253
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite237" type="Sprite" parent="." index="265"]
+
+position = Vector2( 600, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 306
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite288" type="Sprite" parent="." index="266"]
+
+position = Vector2( 584, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 357
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite345" type="Sprite" parent="." index="267"]
+
+position = Vector2( 584, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 409
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite389" type="Sprite" parent="." index="268"]
+
+position = Vector2( 296, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 457
+_sections_unfolded = [ "Animation" ]
+
+[node name="machine_top" type="Sprite" parent="." index="269"]
+
+position = Vector2( 664, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 466
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite452" type="Sprite" parent="." index="270"]
+
+position = Vector2( 152, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 535
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite453" type="Sprite" parent="." index="271"]
+
+position = Vector2( 168, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 536
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite454" type="Sprite" parent="." index="272"]
+
+position = Vector2( 184, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 537
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite455" type="Sprite" parent="." index="273"]
+
+position = Vector2( 200, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 538
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite456" type="Sprite" parent="." index="274"]
+
+position = Vector2( 216, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 539
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite516" type="Sprite" parent="." index="275"]
+
+position = Vector2( 232, 201 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 609
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite517" type="Sprite" parent="." index="276"]
+
+position = Vector2( 248, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 610
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite518" type="Sprite" parent="." index="277"]
+
+position = Vector2( 280, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 612
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite519" type="Sprite" parent="." index="278"]
+
+position = Vector2( 296, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 613
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite474" type="Sprite" parent="." index="279"]
+
+position = Vector2( 232, 185 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 557
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite475" type="Sprite" parent="." index="280"]
+
+position = Vector2( 248, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 558
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite476" type="Sprite" parent="." index="281"]
+
+position = Vector2( 264, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 559
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite477" type="Sprite" parent="." index="282"]
+
+position = Vector2( 280, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 560
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_flowers_2" type="Sprite" parent="." index="283"]
+
+position = Vector2( -104, 152 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 626
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_mini_flowers_1" type="Sprite" parent="." index="284"]
+
+position = Vector2( -88, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 627
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_tree_trunk_left" type="Sprite" parent="." index="285"]
+
+visible = false
+position = Vector2( -72, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 638
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_tree_trunk_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_tree_trunk_left/StaticBody2D" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="green_bush_1" type="Sprite" parent="." index="286"]
+
+visible = false
+position = Vector2( -120, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 678
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_bush_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_1/StaticBody2D" index="0"]
+
+shape = SubResource( 2 )
+
+[node name="green_bush_2" type="Sprite" parent="." index="287"]
+
+visible = false
+position = Vector2( -104, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 679
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_bush_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_2/StaticBody2D" index="0"]
+
+shape = SubResource( 3 )
+
+[node name="grass_and_flowers_3" type="Sprite" parent="." index="288"]
+
+position = Vector2( -88, 168 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 680
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_flowers_4" type="Sprite" parent="." index="289"]
+
+position = Vector2( -72, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 681
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_flowers_5" type="Sprite" parent="." index="290"]
+
+position = Vector2( -56, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 682
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_flowers_6" type="Sprite" parent="." index="291"]
+
+position = Vector2( -40, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 683
+_sections_unfolded = [ "Animation" ]
+
+[node name="cuckold" type="Sprite" parent="." index="292"]
+
+visible = false
+position = Vector2( -24, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 684
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="cuckold" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cuckold/StaticBody2D" index="0"]
+
+shape = SubResource( 4 )
+
+[node name="tree_trunk_left" type="Sprite" parent="." index="293"]
+
+visible = false
+position = Vector2( -40, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 690
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tree_trunk_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tree_trunk_left/StaticBody2D" index="0"]
+
+shape = SubResource( 5 )
+
+[node name="tree_trunk_right" type="Sprite" parent="." index="294"]
+
+visible = false
+position = Vector2( -24, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 691
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tree_trunk_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tree_trunk_right/StaticBody2D" index="0"]
+
+shape = SubResource( 6 )
+
+[node name="brown_stone_2" type="Sprite" parent="." index="295"]
+
+visible = false
+position = Vector2( -8, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 730
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_2/StaticBody2D" index="0"]
+
+shape = SubResource( 7 )
+
+[node name="brown_stone_3" type="Sprite" parent="." index="296"]
+
+visible = false
+position = Vector2( 8, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 731
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_3/StaticBody2D" index="0"]
+
+shape = SubResource( 8 )
+
+[node name="brown_stone_4" type="Sprite" parent="." index="297"]
+
+visible = false
+position = Vector2( 24, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 732
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_4" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_4/StaticBody2D" index="0"]
+
+shape = SubResource( 9 )
+
+[node name="brown_stone_5" type="Sprite" parent="." index="298"]
+
+visible = false
+position = Vector2( 40, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 733
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_5" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_5/StaticBody2D" index="0"]
+
+shape = SubResource( 10 )
+
+[node name="grey_flowerbed" type="Sprite" parent="." index="299"]
+
+visible = false
+position = Vector2( 56, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 734
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="grey_flowerbed" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="grey_flowerbed/StaticBody2D" index="0"]
+
+shape = SubResource( 11 )
+
+[node name="brown_flowerbed" type="Sprite" parent="." index="300"]
+
+visible = false
+position = Vector2( 72, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 735
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_flowerbed" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_flowerbed/StaticBody2D" index="0"]
+
+shape = SubResource( 33 )
+
+[node name="bush_and_red_flowers" type="Sprite" parent="." index="301"]
+
+visible = false
+position = Vector2( 88, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 736
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bush_and_red_flowers" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_red_flowers/StaticBody2D" index="0"]
+
+shape = SubResource( 34 )
+
+[node name="wooden_box_1" type="Sprite" parent="." index="302"]
+
+visible = false
+position = Vector2( 104, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 742
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_box_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_box_1/StaticBody2D" index="0"]
+
+shape = SubResource( 35 )
+
+[node name="tree_base_1" type="Sprite" parent="." index="303"]
+
+visible = false
+position = Vector2( 120, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 743
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="tree_base_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="tree_base_1/StaticBody2D" index="0"]
+
+shape = SubResource( 36 )
+
+[node name="brown_tombstone" type="Sprite" parent="." index="304"]
+
+visible = false
+position = Vector2( -120, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 781
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_tombstone" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_tombstone/StaticBody2D" index="0"]
+
+shape = SubResource( 12 )
+
+[node name="brown_stone_6" type="Sprite" parent="." index="305"]
+
+visible = false
+position = Vector2( -104, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 782
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_6" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_6/StaticBody2D" index="0"]
+
+shape = SubResource( 13 )
+
+[node name="brown_tombstone_and_flower" type="Sprite" parent="." index="306"]
+
+visible = false
+position = Vector2( -88, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 783
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_tombstone_and_flower" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_tombstone_and_flower/StaticBody2D" index="0"]
+
+shape = SubResource( 14 )
+
+[node name="grass_6" type="Sprite" parent="." index="307"]
+
+position = Vector2( -72, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 784
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_7" type="Sprite" parent="." index="308"]
+
+position = Vector2( -56, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 785
+_sections_unfolded = [ "Animation" ]
+
+[node name="big_rock" type="Sprite" parent="." index="309"]
+
+visible = false
+position = Vector2( -40, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 786
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="big_rock" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock/StaticBody2D" index="0"]
+
+shape = SubResource( 18 )
+
+[node name="brown_face_statue_1" type="Sprite" parent="." index="310"]
+
+visible = false
+position = Vector2( -24, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 787
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_face_statue_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="brown_face_statue_1/StaticBody2D" index="0"]
+
+shape = SubResource( 19 )
+
+[node name="brown_face_statue_2" type="Sprite" parent="." index="311"]
+
+visible = false
+position = Vector2( -8, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 788
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_face_statue_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_face_statue_2/StaticBody2D" index="0"]
+
+shape = SubResource( 20 )
+
+[node name="brown_skull_statue" type="Sprite" parent="." index="312"]
+
+visible = false
+position = Vector2( 8, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 789
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_skull_statue" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_skull_statue/StaticBody2D" index="0"]
+
+shape = SubResource( 21 )
+
+[node name="bush_and_flowers_2" type="Sprite" parent="." index="313"]
+
+visible = false
+position = Vector2( 24, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 790
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bush_and_flowers_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_flowers_2/StaticBody2D" index="0"]
+
+shape = SubResource( 22 )
+
+[node name="bush_and_flowers_3" type="Sprite" parent="." index="314"]
+
+visible = false
+position = Vector2( 40, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 791
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bush_and_flowers_3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_flowers_3/StaticBody2D" index="0"]
+
+shape = SubResource( 23 )
+
+[node name="red_flowers_1" type="Sprite" parent="." index="315"]
+
+position = Vector2( -120, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 833
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_flowers_2" type="Sprite" parent="." index="316"]
+
+position = Vector2( -104, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 834
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_flowers_3" type="Sprite" parent="." index="317"]
+
+position = Vector2( -88, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 835
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_sign_2" type="Sprite" parent="." index="318"]
+
+visible = false
+position = Vector2( -72, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 836
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_sign_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_sign_2/StaticBody2D" index="0"]
+
+shape = SubResource( 24 )
+
+[node name="wooden_big_sign_left" type="Sprite" parent="." index="319"]
+
+visible = false
+position = Vector2( -56, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 837
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_big_sign_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_big_sign_left/StaticBody2D" index="0"]
+
+shape = SubResource( 25 )
+
+[node name="wooden_big_sign_right" type="Sprite" parent="." index="320"]
+
+visible = false
+position = Vector2( -40, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 838
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_big_sign_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_big_sign_right/StaticBody2D" index="0"]
+
+shape = SubResource( 26 )
+
+[node name="brown_face_statue_3" type="Sprite" parent="." index="321"]
+
+visible = false
+position = Vector2( -24, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 839
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_face_statue_3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_face_statue_3/StaticBody2D" index="0"]
+
+shape = SubResource( 27 )
+
+[node name="big_rock_3" type="Sprite" parent="." index="322"]
+
+visible = false
+position = Vector2( -8, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 840
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="big_rock_3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock_3/StaticBody2D" index="0"]
+
+shape = SubResource( 28 )
+
+[node name="green_bush_3" type="Sprite" parent="." index="323"]
+
+visible = false
+position = Vector2( 8, 200 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 841
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_bush_3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_3/StaticBody2D" index="0"]
+
+shape = SubResource( 29 )
+
+[node name="blue_flowers_1" type="Sprite" parent="." index="324"]
+
+position = Vector2( -120, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 885
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_flowers_2" type="Sprite" parent="." index="325"]
+
+position = Vector2( -104, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 886
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_flowers_3" type="Sprite" parent="." index="326"]
+
+position = Vector2( -88, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 887
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_bird_house_1" type="Sprite" parent="." index="327"]
+
+visible = false
+position = Vector2( -72, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 888
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_bird_house_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_bird_house_1/StaticBody2D" index="0"]
+
+shape = SubResource( 30 )
+
+[node name="wooden_bird_house_2" type="Sprite" parent="." index="328"]
+
+visible = false
+position = Vector2( -56, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 889
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_bird_house_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_bird_house_2/StaticBody2D" index="0"]
+
+shape = SubResource( 31 )
+
+[node name="big_rock_2" type="Sprite" parent="." index="329"]
+
+visible = false
+position = Vector2( -40, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 890
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="big_rock_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock_2/StaticBody2D" index="0"]
+
+shape = SubResource( 32 )
+
+[node name="bush_and_blue_flowers" type="Sprite" parent="." index="330"]
+
+visible = false
+position = Vector2( -24, 216 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 892
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bush_and_blue_flowers" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_blue_flowers/StaticBody2D" index="0"]
+
+shape = SubResource( 37 )
+
+[node name="snow_tree_trunk_right" type="Sprite" parent="." index="331"]
+
+editor/display_folded = true
+visible = false
+position = Vector2( -56, 152 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 639
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_tree_trunk_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_tree_trunk_right/StaticBody2D" index="0"]
+
+shape = SubResource( 15 )
+
+[node name="Sprite478" type="Sprite" parent="." index="332"]
+
+position = Vector2( 296, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 561
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite479" type="Sprite" parent="." index="333"]
+
+position = Vector2( 312, 184 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 562
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite494" type="Sprite" parent="." index="334"]
+
+position = Vector2( 152, 200 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 587
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite495" type="Sprite" parent="." index="335"]
+
+position = Vector2( 168, 200 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 588
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite496" type="Sprite" parent="." index="336"]
+
+position = Vector2( 184, 200 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 589
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite409" type="Sprite" parent="." index="337"]
+
+position = Vector2( 152, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 483
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite410" type="Sprite" parent="." index="338"]
+
+position = Vector2( 168, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 484
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite411" type="Sprite" parent="." index="339"]
+
+position = Vector2( 168, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 484
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite412" type="Sprite" parent="." index="340"]
+
+position = Vector2( 184, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 485
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite413" type="Sprite" parent="." index="341"]
+
+position = Vector2( 200, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 486
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite414" type="Sprite" parent="." index="342"]
+
+position = Vector2( 216, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 487
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite432" type="Sprite" parent="." index="343"]
+
+position = Vector2( 232, 169 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 505
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite433" type="Sprite" parent="." index="344"]
+
+position = Vector2( 248, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 506
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite434" type="Sprite" parent="." index="345"]
+
+position = Vector2( 264, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 507
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite435" type="Sprite" parent="." index="346"]
+
+position = Vector2( 312, 168 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 510
+_sections_unfolded = [ "Animation" ]
+
+[node name="machine_bottom" type="Sprite" parent="." index="347"]
+
+position = Vector2( 664, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 518
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_flowers_1" type="Sprite" parent="." index="348"]
+
+position = Vector2( -120, 152 )
+texture = ExtResource( 2 )
+vframes = 56
+hframes = 52
+frame = 469
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite104" type="Sprite" parent="." index="349"]
+
+position = Vector2( 616, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 151
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite122" type="Sprite" parent="." index="350"]
+
+position = Vector2( 648, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 205
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite175" type="Sprite" parent="." index="351"]
+
+position = Vector2( 648, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 257
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite65" type="Sprite" parent="." index="352"]
+
+position = Vector2( -8, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 112
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite118" type="Sprite" parent="." index="353"]
+
+position = Vector2( 24, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 166
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite181" type="Sprite" parent="." index="354"]
+
+position = Vector2( 24, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 218
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_top_center" type="Sprite" parent="." index="355"]
+
+position = Vector2( 24, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 270
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_center" type="Sprite" parent="." index="356"]
+
+position = Vector2( 24, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 322
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_bottom_center" type="Sprite" parent="." index="357"]
+
+position = Vector2( 24, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 374
+_sections_unfolded = [ "Animation" ]
+
+[node name="tall_snow_grass_2" type="Sprite" parent="." index="358"]
+
+position = Vector2( 40, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 427
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite75" type="Sprite" parent="." index="359"]
+
+position = Vector2( 136, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 121
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite141" type="Sprite" parent="." index="360"]
+
+position = Vector2( 168, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 175
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite186" type="Sprite" parent="." index="361"]
+
+position = Vector2( 168, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 227
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_center_top" type="Sprite" parent="." index="362"]
+
+position = Vector2( 168, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 279
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_center" type="Sprite" parent="." index="363"]
+
+position = Vector2( 168, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 331
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_center_bottom" type="Sprite" parent="." index="364"]
+
+position = Vector2( 168, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 383
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="Sprite371" type="Sprite" parent="." index="365"]
+
+position = Vector2( 184, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 436
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="Sprite77" type="Sprite" parent="." index="366"]
+
+position = Vector2( 280, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 130
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite155" type="Sprite" parent="." index="367"]
+
+position = Vector2( 312, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 184
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite202" type="Sprite" parent="." index="368"]
+
+position = Vector2( 312, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 236
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite221" type="Sprite" parent="." index="369"]
+
+position = Vector2( 328, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 289
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite231" type="Sprite" parent="." index="370"]
+
+position = Vector2( 312, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 288
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite304" type="Sprite" parent="." index="371"]
+
+position = Vector2( 312, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 340
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite324" type="Sprite" parent="." index="372"]
+
+position = Vector2( 312, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 392
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite91" type="Sprite" parent="." index="373"]
+
+position = Vector2( 424, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 139
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite123" type="Sprite" parent="." index="374"]
+
+position = Vector2( 456, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 193
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite182" type="Sprite" parent="." index="375"]
+
+position = Vector2( 456, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 245
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_umbrela_top_right" type="Sprite" parent="." index="376"]
+
+position = Vector2( 472, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 298
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_umbrela_center_left" type="Sprite" parent="." index="377"]
+
+position = Vector2( 456, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 349
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_umbrela_base_left" type="Sprite" parent="." index="378"]
+
+position = Vector2( 456, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 401
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_bench_bottom" type="Sprite" parent="." index="379"]
+
+position = Vector2( 392, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 449
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite95" type="Sprite" parent="." index="380"]
+
+position = Vector2( 568, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 148
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite135" type="Sprite" parent="." index="381"]
+
+position = Vector2( 600, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 202
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite199" type="Sprite" parent="." index="382"]
+
+position = Vector2( 600, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 254
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite223" type="Sprite" parent="." index="383"]
+
+position = Vector2( 616, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 307
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite302" type="Sprite" parent="." index="384"]
+
+position = Vector2( 600, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 358
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite347" type="Sprite" parent="." index="385"]
+
+position = Vector2( 600, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 410
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite106" type="Sprite" parent="." index="386"]
+
+position = Vector2( 632, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 152
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite138" type="Sprite" parent="." index="387"]
+
+position = Vector2( 664, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 206
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite190" type="Sprite" parent="." index="388"]
+
+position = Vector2( 664, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 258
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite66" type="Sprite" parent="." index="389"]
+
+position = Vector2( 8, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 113
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite115" type="Sprite" parent="." index="390"]
+
+position = Vector2( 40, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 167
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite172" type="Sprite" parent="." index="391"]
+
+position = Vector2( 40, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 219
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_top_right" type="Sprite" parent="." index="392"]
+
+position = Vector2( 40, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 271
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_center_right" type="Sprite" parent="." index="393"]
+
+position = Vector2( 40, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 323
+_sections_unfolded = [ "Animation" ]
+
+[node name="snow_wooden_fence_bottom_right" type="Sprite" parent="." index="394"]
+
+position = Vector2( 40, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 375
+_sections_unfolded = [ "Animation" ]
+
+[node name="grass_and_snow_left_1" type="Sprite" parent="." index="395"]
+
+position = Vector2( 56, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 428
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite72" type="Sprite" parent="." index="396"]
+
+position = Vector2( 152, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 122
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite153" type="Sprite" parent="." index="397"]
+
+position = Vector2( 184, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 176
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite207" type="Sprite" parent="." index="398"]
+
+position = Vector2( 184, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 228
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_top_right" type="Sprite" parent="." index="399"]
+
+position = Vector2( 184, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 280
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_center_right" type="Sprite" parent="." index="400"]
+
+position = Vector2( 184, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 332
+_sections_unfolded = [ "Animation" ]
+
+[node name="wooden_fence_bottom_right" type="Sprite" parent="." index="401"]
+
+position = Vector2( 184, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 384
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite366" type="Sprite" parent="." index="402"]
+
+position = Vector2( 200, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 437
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite83" type="Sprite" parent="." index="403"]
+
+position = Vector2( 296, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 131
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite139" type="Sprite" parent="." index="404"]
+
+position = Vector2( 328, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 185
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite185" type="Sprite" parent="." index="405"]
+
+position = Vector2( 328, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 237
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite226" type="Sprite" parent="." index="406"]
+
+position = Vector2( 344, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 290
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite298" type="Sprite" parent="." index="407"]
+
+position = Vector2( 328, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 341
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite343" type="Sprite" parent="." index="408"]
+
+position = Vector2( 328, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 393
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite85" type="Sprite" parent="." index="409"]
+
+position = Vector2( 440, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 140
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite150" type="Sprite" parent="." index="410"]
+
+position = Vector2( 472, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 194
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite195" type="Sprite" parent="." index="411"]
+
+position = Vector2( 472, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 246
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_umbrela_top_left" type="Sprite" parent="." index="412"]
+
+position = Vector2( 488, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 299
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_beach_umbrela_base_right" type="Sprite" parent="." index="413"]
+
+position = Vector2( 472, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 350
+_sections_unfolded = [ "Animation" ]
+
+[node name="beach_umbrela_base_right" type="Sprite" parent="." index="414"]
+
+position = Vector2( 472, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 402
+_sections_unfolded = [ "Animation" ]
+
+[node name="blue_beach_bench_bottom" type="Sprite" parent="." index="415"]
+
+position = Vector2( 408, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 450
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite102" type="Sprite" parent="." index="416"]
+
+position = Vector2( 584, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 149
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite134" type="Sprite" parent="." index="417"]
+
+position = Vector2( 616, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 203
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite184" type="Sprite" parent="." index="418"]
+
+position = Vector2( 616, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 255
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite238" type="Sprite" parent="." index="419"]
+
+position = Vector2( 632, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 308
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite300" type="Sprite" parent="." index="420"]
+
+position = Vector2( 616, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 359
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite346" type="Sprite" parent="." index="421"]
+
+position = Vector2( 616, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 411
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite105" type="Sprite" parent="." index="422"]
+
+position = Vector2( 648, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 153
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite107" type="Sprite" parent="." index="423"]
+
+position = Vector2( 664, 40 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 154
+_sections_unfolded = [ "Animation" ]
+
+[node name="gym_sign_top" type="Sprite" parent="." index="424"]
+
+position = Vector2( -120, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 157
+_sections_unfolded = [ "Animation" ]
+
+[node name="gym_sign_bottom" type="Sprite" parent="." index="425"]
+
+visible = false
+position = Vector2( -120, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 209
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="gym_sign_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gym_sign_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 44 )
+
+[node name="brown_stone_1" type="Sprite" parent="." index="426"]
+
+visible = false
+position = Vector2( -120, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 261
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_1/StaticBody2D" index="0"]
+
+shape = SubResource( 45 )
+
+[node name="bench_top" type="Sprite" parent="." index="427"]
+
+visible = false
+position = Vector2( -120, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 313
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bench_top/StaticBody2D" index="0"]
+
+position = Vector2( 6, 0 )
+shape = SubResource( 39 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="bench_bottom" type="Sprite" parent="." index="428"]
+
+visible = false
+position = Vector2( -120, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 365
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom/StaticBody2D" index="0"]
+
+position = Vector2( 6, 0 )
+shape = SubResource( 40 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="wooden_sign_1" type="Sprite" parent="." index="429"]
+
+visible = false
+position = Vector2( -120, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 417
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_sign_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_sign_1/StaticBody2D" index="0"]
+
+shape = SubResource( 16 )
+
+[node name="green_bush1" type="Sprite" parent="." index="430"]
+
+visible = false
+position = Vector2( -104, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 418
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_bush1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush1/StaticBody2D" index="0"]
+
+shape = SubResource( 17 )
+
+[node name="red_sign_top" type="Sprite" parent="." index="431"]
+
+position = Vector2( -104, 56 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 158
+_sections_unfolded = [ "Animation" ]
+
+[node name="red_sign_bottom" type="Sprite" parent="." index="432"]
+
+visible = false
+position = Vector2( -104, 72 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 210
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="red_sign_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="red_sign_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 46 )
+
+[node name="sign_left_corner" type="Sprite" parent="." index="433"]
+
+visible = false
+position = Vector2( -104, 88 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 262
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="sign_left_corner" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="sign_left_corner/StaticBody2D" index="0"]
+
+shape = SubResource( 47 )
+
+[node name="bench_top_left" type="Sprite" parent="." index="434"]
+
+position = Vector2( -104, 104 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 314
+_sections_unfolded = [ "Animation" ]
+
+[node name="bench_bottom_left" type="Sprite" parent="." index="435"]
+
+editor/display_folded = true
+visible = false
+position = Vector2( -104, 120 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 366
+_sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bench_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom_left/StaticBody2D" index="0"]
+
+position = Vector2( 0, -6 )
+shape = SubResource( 41 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="stairs_summer_left" type="Sprite" parent="." index="436"]
+
+position = Vector2( -88, 136 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 419
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite30" type="Sprite" parent="." index="437"]
+
+position = Vector2( 8, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 59
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite31" type="Sprite" parent="." index="438"]
+
+position = Vector2( 24, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 60
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite32" type="Sprite" parent="." index="439"]
+
+position = Vector2( 56, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 62
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite33" type="Sprite" parent="." index="440"]
+
+position = Vector2( 72, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 63
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite34" type="Sprite" parent="." index="441"]
+
+position = Vector2( 104, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 68
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite46" type="Sprite" parent="." index="442"]
+
+position = Vector2( 296, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 80
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite54" type="Sprite" parent="." index="443"]
+
+position = Vector2( 488, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 92
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite40" type="Sprite" parent="." index="444"]
+
+position = Vector2( 200, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 74
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite45" type="Sprite" parent="." index="445"]
+
+position = Vector2( 392, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 86
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite53" type="Sprite" parent="." index="446"]
+
+position = Vector2( 584, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 98
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite37" type="Sprite" parent="." index="447"]
+
+position = Vector2( 152, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 71
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite48" type="Sprite" parent="." index="448"]
+
+position = Vector2( 344, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 83
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite56" type="Sprite" parent="." index="449"]
+
+position = Vector2( 536, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 95
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite41" type="Sprite" parent="." index="450"]
+
+position = Vector2( 248, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 77
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite49" type="Sprite" parent="." index="451"]
+
+position = Vector2( 440, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 89
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite57" type="Sprite" parent="." index="452"]
+
+position = Vector2( 632, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 101
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite35" type="Sprite" parent="." index="453"]
+
+position = Vector2( 120, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 69
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite43" type="Sprite" parent="." index="454"]
+
+position = Vector2( 312, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 81
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite50" type="Sprite" parent="." index="455"]
+
+position = Vector2( 504, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 93
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite38" type="Sprite" parent="." index="456"]
+
+position = Vector2( 216, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 75
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite47" type="Sprite" parent="." index="457"]
+
+position = Vector2( 408, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 87
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite55" type="Sprite" parent="." index="458"]
+
+position = Vector2( 600, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 99
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite36" type="Sprite" parent="." index="459"]
+
+position = Vector2( 168, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 72
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite44" type="Sprite" parent="." index="460"]
+
+position = Vector2( 360, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 84
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite52" type="Sprite" parent="." index="461"]
+
+position = Vector2( 552, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 96
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite39" type="Sprite" parent="." index="462"]
+
+position = Vector2( 264, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 78
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite42" type="Sprite" parent="." index="463"]
+
+position = Vector2( 456, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 90
+_sections_unfolded = [ "Animation" ]
+
+[node name="Sprite51" type="Sprite" parent="." index="464"]
+
+position = Vector2( 648, 24 )
+texture = ExtResource( 1 )
+vframes = 56
+hframes = 52
+frame = 102
+_sections_unfolded = [ "Animation" ]
+
+
