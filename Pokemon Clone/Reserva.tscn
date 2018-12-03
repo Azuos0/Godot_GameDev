@@ -1,27 +1,7 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=116 format=2]
 
 [ext_resource path="res://Assets/tileset-wesley.png" type="Texture" id=1]
 [ext_resource path="res://Assets/tileset-wesley2.png" type="Texture" id=2]
-
-[sub_resource type="RectangleShape2D" id=42]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=43]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=38]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 2 )
-
-[sub_resource type="RectangleShape2D" id=48]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8.2 )
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -36,7 +16,7 @@ extents = Vector2( 8, 8 )
 [sub_resource type="RectangleShape2D" id=3]
 
 custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
+extents = Vector2( 8, 2 )
 
 [sub_resource type="RectangleShape2D" id=4]
 
@@ -48,17 +28,47 @@ extents = Vector2( 8, 8 )
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=6]
+[sub_resource type="RectangleShape2D" id=90]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=91]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=98]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.2 )
 
 [sub_resource type="RectangleShape2D" id=7]
 
 custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
+extents = Vector2( 6, 8 )
 
 [sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=92]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=93]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=99]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
@@ -71,29 +81,24 @@ extents = Vector2( 8, 8 )
 [sub_resource type="RectangleShape2D" id=10]
 
 custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
+extents = Vector2( 8, 8.2 )
 
 [sub_resource type="RectangleShape2D" id=11]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=33]
+[sub_resource type="RectangleShape2D" id=94]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=34]
+[sub_resource type="RectangleShape2D" id=95]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=35]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=36]
+[sub_resource type="RectangleShape2D" id=96]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
@@ -113,10 +118,40 @@ extents = Vector2( 8, 8 )
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=18]
+[sub_resource type="RectangleShape2D" id=15]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=16]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=17]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=100]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=101]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=102]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=18]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 2 )
 
 [sub_resource type="RectangleShape2D" id=19]
 
@@ -126,9 +161,24 @@ extents = Vector2( 8, 8 )
 [sub_resource type="RectangleShape2D" id=20]
 
 custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
+extents = Vector2( 8, 2 )
 
 [sub_resource type="RectangleShape2D" id=21]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=103]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=104]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=105]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
@@ -168,6 +218,21 @@ extents = Vector2( 8, 8 )
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
+[sub_resource type="RectangleShape2D" id=97]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=106]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=107]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
 [sub_resource type="RectangleShape2D" id=29]
 
 custom_solver_bias = 0.0
@@ -188,22 +253,47 @@ extents = Vector2( 8, 8 )
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
+[sub_resource type="RectangleShape2D" id=33]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=34]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=108]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=109]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=110]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=35]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=36]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
 [sub_resource type="RectangleShape2D" id=37]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[sub_resource type="RectangleShape2D" id=15]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=44]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8.5 )
-
-[sub_resource type="RectangleShape2D" id=45]
+[sub_resource type="RectangleShape2D" id=38]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
@@ -211,29 +301,9 @@ extents = Vector2( 8, 8 )
 [sub_resource type="RectangleShape2D" id=39]
 
 custom_solver_bias = 0.0
-extents = Vector2( 2, 8 )
+extents = Vector2( 8, 8 )
 
 [sub_resource type="RectangleShape2D" id=40]
-
-custom_solver_bias = 0.0
-extents = Vector2( 2, 8 )
-
-[sub_resource type="RectangleShape2D" id=16]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=17]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
-
-[sub_resource type="RectangleShape2D" id=46]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8.5 )
-
-[sub_resource type="RectangleShape2D" id=47]
 
 custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
@@ -241,11 +311,266 @@ extents = Vector2( 8, 8 )
 [sub_resource type="RectangleShape2D" id=41]
 
 custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=42]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=43]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=44]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=45]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=46]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=47]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=48]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=49]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=50]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=51]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=52]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=53]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=54]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=55]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=56]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=57]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=58]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=59]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=60]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=61]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=62]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=63]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=64]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=65]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=66]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=67]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=68]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=69]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=111]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.2 )
+
+[sub_resource type="RectangleShape2D" id=70]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=71]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=72]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=73]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=112]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=74]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=75]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=76]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=77]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=78]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=79]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=113]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=80]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.5 )
+
+[sub_resource type="RectangleShape2D" id=81]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=82]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2, 8 )
+
+[sub_resource type="RectangleShape2D" id=83]
+
+custom_solver_bias = 0.0
+extents = Vector2( 2, 8 )
+
+[sub_resource type="RectangleShape2D" id=84]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=85]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=86]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8.2 )
+
+[sub_resource type="RectangleShape2D" id=87]
+
+custom_solver_bias = 0.0
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=88]
+
+custom_solver_bias = 0.0
 extents = Vector2( 8, 2 )
 
-[node name="Reserva" type="Node2D" index="0"]
+[sub_resource type="RectangleShape2D" id=89]
 
-[node name="snow_path_top_left" type="Sprite" parent="." index="0"]
+custom_solver_bias = 0.0
+extents = Vector2( 6, 8 )
+
+[node name="Reserva" type="Node2D"]
+
+[node name="snow_path_top_left_corner" type="Sprite" parent="." index="0"]
 
 position = Vector2( 8, 8 )
 texture = ExtResource( 1 )
@@ -254,7 +579,7 @@ hframes = 52
 frame = 7
 _sections_unfolded = [ "Animation" ]
 
-[node name="snow_path_top_right" type="Sprite" parent="." index="1"]
+[node name="snow_path_top_right_corner" type="Sprite" parent="." index="1"]
 
 position = Vector2( 24, 8 )
 texture = ExtResource( 1 )
@@ -497,7 +822,7 @@ hframes = 52
 frame = 50
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite29" type="Sprite" parent="." index="28"]
+[node name="grass6" type="Sprite" parent="." index="28"]
 
 position = Vector2( -24, 24 )
 texture = ExtResource( 1 )
@@ -549,7 +874,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stone/StaticBody2D" index="0"]
 
-shape = SubResource( 42 )
+shape = SubResource( 1 )
 
 [node name="sign_right_coner" type="Sprite" parent="." index="32"]
 
@@ -576,7 +901,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="sign_right_coner/StaticBody2D" index="0"]
 
-shape = SubResource( 43 )
+shape = SubResource( 2 )
 
 [node name="bench_top_right" type="Sprite" parent="." index="33"]
 
@@ -613,7 +938,7 @@ bounce = 0.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom_right/StaticBody2D" index="0"]
 
 position = Vector2( 0, -6 )
-shape = SubResource( 38 )
+shape = SubResource( 3 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="stairs_summer_middle" type="Sprite" parent="." index="35"]
@@ -672,12 +997,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="brown_stone_snow1" type="Sprite" parent="." index="41"]
 
+visible = false
 position = Vector2( 56, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 376
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="brown_stone_snow1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_snow1/StaticBody2D" index="0"]
+
+shape = SubResource( 4 )
 
 [node name="grass_and_snow_right_1" type="Sprite" parent="." index="42"]
 
@@ -717,30 +1060,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="white_wooden_fence_top_left" type="Sprite" parent="." index="46"]
 
+visible = false
 position = Vector2( 200, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 281
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_top_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_top_left/StaticBody2D" index="0"]
+
+shape = SubResource( 5 )
 
 [node name="white_wooden_fence_center_left" type="Sprite" parent="." index="47"]
 
+visible = false
 position = Vector2( 200, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 333
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_center_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_center_left/StaticBody2D" index="0"]
+
+shape = SubResource( 90 )
 
 [node name="white_wooden_fence_bottom_left" type="Sprite" parent="." index="48"]
 
+visible = false
 position = Vector2( 200, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 385
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_bottom_left/StaticBody2D" index="0"]
+
+shape = SubResource( 91 )
 
 [node name="Sprite375" type="Sprite" parent="." index="49"]
 
@@ -852,12 +1249,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="orange_beach_bench_bottom" type="Sprite" parent="." index="61"]
 
+visible = false
 position = Vector2( 424, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 451
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="orange_beach_bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="orange_beach_bench_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 98 )
 
 [node name="grass2" type="Sprite" parent="." index="62"]
 
@@ -888,6 +1303,7 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="pole_bottom_1" type="Sprite" parent="." index="65"]
 
+visible = false
 position = Vector2( -72, 88 )
 texture = ExtResource( 1 )
 vframes = 56
@@ -910,7 +1326,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="pole_bottom_1/StaticBody2D" index="0"]
 
-shape = SubResource( 48 )
+shape = SubResource( 6 )
 
 [node name="grass5" type="Sprite" parent="." index="66"]
 
@@ -932,12 +1348,32 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="stairs_summer_right" type="Sprite" parent="." index="68"]
 
+visible = false
 position = Vector2( -56, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 421
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="stairs_summer_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stairs_summer_right/StaticBody2D" index="0"]
+
+position = Vector2( 2, 0 )
+shape = SubResource( 7 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Sprite74" type="Sprite" parent="." index="69"]
 
@@ -986,12 +1422,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_bush" type="Sprite" parent="." index="74"]
 
+visible = false
 position = Vector2( 72, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 377
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_bush" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_bush/StaticBody2D" index="0"]
+
+shape = SubResource( 8 )
 
 [node name="Sprite374" type="Sprite" parent="." index="75"]
 
@@ -1031,12 +1485,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="white_wooden_fence_top_center" type="Sprite" parent="." index="79"]
 
+visible = false
 position = Vector2( 216, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 282
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_top_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_top_center/StaticBody2D" index="0"]
+
+shape = SubResource( 92 )
 
 [node name="white_wooden_fence_center" type="Sprite" parent="." index="80"]
 
@@ -1049,12 +1521,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="white_wooden_fence_bottom_center" type="Sprite" parent="." index="81"]
 
+visible = false
 position = Vector2( 216, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 386
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_bottom_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_bottom_center/StaticBody2D" index="0"]
+
+shape = SubResource( 93 )
 
 [node name="Sprite365" type="Sprite" parent="." index="82"]
 
@@ -1166,12 +1656,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="green_beach_bench_bottom" type="Sprite" parent="." index="94"]
 
+visible = false
 position = Vector2( 440, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 452
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_beach_bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_beach_bench_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 99 )
 
 [node name="grass3" type="Sprite" parent="." index="95"]
 
@@ -1184,12 +1692,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="green_bush2" type="Sprite" parent="." index="96"]
 
+visible = false
 position = Vector2( -56, 56 )
 texture = ExtResource( 2 )
 vframes = 56
 hframes = 52
 frame = 161
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_bush2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush2/StaticBody2D" index="0"]
+
+shape = SubResource( 9 )
 
 [node name="pole_top_2" type="Sprite" parent="." index="97"]
 
@@ -1202,12 +1728,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="pole_bottom_2" type="Sprite" parent="." index="98"]
 
+visible = false
 position = Vector2( -56, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 265
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="pole_bottom_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pole_bottom_2/StaticBody2D" index="0"]
+
+shape = SubResource( 10 )
 
 [node name="tall_grass_2" type="Sprite" parent="." index="99"]
 
@@ -1227,14 +1771,33 @@ hframes = 52
 frame = 369
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite368" type="Sprite" parent="." index="101"]
+[node name="green_mountain_bottom_left" type="Sprite" parent="." index="101"]
 
+visible = false
 position = Vector2( -40, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 422
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_bottom_left/StaticBody2D" index="0"]
+
+shape = SubResource( 11 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Sprite68" type="Sprite" parent="." index="102"]
 
@@ -1328,30 +1891,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="white_wooden_fence_top_right" type="Sprite" parent="." index="112"]
 
+visible = false
 position = Vector2( 232, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 283
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_top_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_top_right/StaticBody2D" index="0"]
+
+shape = SubResource( 94 )
 
 [node name="white_wooden_fence_center_right" type="Sprite" parent="." index="113"]
 
+visible = false
 position = Vector2( 232, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 335
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_center_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_center_right/StaticBody2D" index="0"]
+
+shape = SubResource( 95 )
 
 [node name="white_wooden_fence_bottom_right" type="Sprite" parent="." index="114"]
 
+visible = false
 position = Vector2( 232, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 387
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="white_wooden_fence_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="white_wooden_fence_bottom_right/StaticBody2D" index="0"]
+
+shape = SubResource( 96 )
 
 [node name="Sprite372" type="Sprite" parent="." index="115"]
 
@@ -1470,7 +2087,7 @@ hframes = 52
 frame = 108
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite113" type="Sprite" parent="." index="128"]
+[node name="snow_path_center_left" type="Sprite" parent="." index="128"]
 
 position = Vector2( -40, 56 )
 texture = ExtResource( 1 )
@@ -1479,7 +2096,7 @@ hframes = 52
 frame = 162
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite162" type="Sprite" parent="." index="129"]
+[node name="snow_path_bottom_left" type="Sprite" parent="." index="129"]
 
 position = Vector2( -40, 72 )
 texture = ExtResource( 1 )
@@ -1497,32 +2114,86 @@ hframes = 52
 frame = 266
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite276" type="Sprite" parent="." index="131"]
+[node name="green_mountain_top_left" type="Sprite" parent="." index="131"]
 
+visible = false
 position = Vector2( -40, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 318
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite340" type="Sprite" parent="." index="132"]
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_top_left" index="0"]
 
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_top_left/StaticBody2D" index="0"]
+
+shape = SubResource( 12 )
+
+[node name="green_mountain_center_left" type="Sprite" parent="." index="132"]
+
+visible = false
 position = Vector2( -40, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 370
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite377" type="Sprite" parent="." index="133"]
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_center_left" index="0"]
 
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_center_left/StaticBody2D" index="0"]
+
+shape = SubResource( 13 )
+
+[node name="green_mountain_bottom_center" type="Sprite" parent="." index="133"]
+
+visible = false
 position = Vector2( -24, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 423
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_bottom_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_bottom_center/StaticBody2D" index="0"]
+
+shape = SubResource( 14 )
 
 [node name="Sprite70" type="Sprite" parent="." index="134"]
 
@@ -1553,30 +2224,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_mountain_top_left" type="Sprite" parent="." index="137"]
 
+visible = false
 position = Vector2( 104, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 275
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_top_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_top_left/StaticBody2D" index="0"]
+
+shape = SubResource( 15 )
 
 [node name="snow_mountain_center_left" type="Sprite" parent="." index="138"]
 
+visible = false
 position = Vector2( 104, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 327
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_center_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_center_left/StaticBody2D" index="0"]
+
+shape = SubResource( 16 )
 
 [node name="snow_mountain_bottom_left" type="Sprite" parent="." index="139"]
 
+visible = false
 position = Vector2( 104, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 379
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_bottom_left/StaticBody2D" index="0"]
+
+shape = SubResource( 17 )
 
 [node name="Sprite379" type="Sprite" parent="." index="140"]
 
@@ -1652,12 +2377,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="water_bench_top" type="Sprite" parent="." index="148"]
 
+visible = false
 position = Vector2( 328, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 444
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_bench_top/StaticBody2D" index="0"]
+
+shape = SubResource( 100 )
 
 [node name="Sprite87" type="Sprite" parent="." index="149"]
 
@@ -1706,21 +2449,57 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="red_beach_bench_top" type="Sprite" parent="." index="154"]
 
+visible = false
 position = Vector2( 392, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 397
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="red_beach_bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="red_beach_bench_top/StaticBody2D" index="0"]
+
+shape = SubResource( 101 )
 
 [node name="water_bench_bottom" type="Sprite" parent="." index="155"]
 
+visible = false
 position = Vector2( 328, 152 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 445
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_bench_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 102 )
 
 [node name="Sprite99" type="Sprite" parent="." index="156"]
 
@@ -1776,7 +2555,7 @@ hframes = 52
 frame = 109
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite112" type="Sprite" parent="." index="162"]
+[node name="snow_path_center" type="Sprite" parent="." index="162"]
 
 position = Vector2( -24, 56 )
 texture = ExtResource( 1 )
@@ -1785,7 +2564,7 @@ hframes = 52
 frame = 163
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite161" type="Sprite" parent="." index="163"]
+[node name="snow_path_bottom_center" type="Sprite" parent="." index="163"]
 
 position = Vector2( -24, 72 )
 texture = ExtResource( 1 )
@@ -1803,16 +2582,36 @@ hframes = 52
 frame = 267
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite280" type="Sprite" parent="." index="165"]
+[node name="green_mountain_top_center" type="Sprite" parent="." index="165"]
 
+visible = false
 position = Vector2( -24, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 319
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite353" type="Sprite" parent="." index="166"]
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_top_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_top_center/StaticBody2D" index="0"]
+
+position = Vector2( 0, -6 )
+shape = SubResource( 18 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="green_mountain_center" type="Sprite" parent="." index="166"]
 
 position = Vector2( -24, 120 )
 texture = ExtResource( 1 )
@@ -1821,14 +2620,32 @@ hframes = 52
 frame = 371
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite357" type="Sprite" parent="." index="167"]
+[node name="green_mountain_bottom_right" type="Sprite" parent="." index="167"]
 
+visible = false
 position = Vector2( -8, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 424
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_bottom_right/StaticBody2D" index="0"]
+
+shape = SubResource( 19 )
 
 [node name="Sprite69" type="Sprite" parent="." index="168"]
 
@@ -1859,12 +2676,32 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_mountain_top_center" type="Sprite" parent="." index="171"]
 
+visible = false
 position = Vector2( 120, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 276
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_top_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_top_center/StaticBody2D" index="0"]
+
+position = Vector2( 0, -6 )
+shape = SubResource( 20 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="snow_mountain_center" type="Sprite" parent="." index="172"]
 
@@ -1877,12 +2714,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_mountain_bottom_center" type="Sprite" parent="." index="173"]
 
+visible = false
 position = Vector2( 120, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 380
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_bottom_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_bottom_center/StaticBody2D" index="0"]
+
+shape = SubResource( 21 )
 
 [node name="snow_stairs_left" type="Sprite" parent="." index="174"]
 
@@ -1976,12 +2831,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="beach_shell" type="Sprite" parent="." index="184"]
 
+visible = false
 position = Vector2( 424, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 295
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="beach_shell" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="beach_shell/StaticBody2D" index="0"]
+
+shape = SubResource( 103 )
 
 [node name="Sprite279" type="Sprite" parent="." index="185"]
 
@@ -1994,21 +2867,57 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="blue_beach_bench_top" type="Sprite" parent="." index="186"]
 
+visible = false
 position = Vector2( 408, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 398
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="blue_beach_bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blue_beach_bench_top/StaticBody2D" index="0"]
+
+shape = SubResource( 104 )
 
 [node name="water_shell" type="Sprite" parent="." index="187"]
 
+visible = false
 position = Vector2( 344, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 446
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_shell" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_shell/StaticBody2D" index="0"]
+
+shape = SubResource( 105 )
 
 [node name="Sprite100" type="Sprite" parent="." index="188"]
 
@@ -2055,7 +2964,7 @@ hframes = 52
 frame = 355
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite63" type="Sprite" parent="." index="193"]
+[node name="snow_path__top_left" type="Sprite" parent="." index="193"]
 
 position = Vector2( -40, 40 )
 texture = ExtResource( 1 )
@@ -2064,7 +2973,7 @@ hframes = 52
 frame = 110
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite116" type="Sprite" parent="." index="194"]
+[node name="snow_path_center_right" type="Sprite" parent="." index="194"]
 
 position = Vector2( -8, 56 )
 texture = ExtResource( 1 )
@@ -2073,7 +2982,7 @@ hframes = 52
 frame = 164
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite177" type="Sprite" parent="." index="195"]
+[node name="snow_path_bottom_right" type="Sprite" parent="." index="195"]
 
 position = Vector2( -8, 72 )
 texture = ExtResource( 1 )
@@ -2084,39 +2993,111 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_wooden_sign_1" type="Sprite" parent="." index="196"]
 
+visible = false
 position = Vector2( -8, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 268
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite284" type="Sprite" parent="." index="197"]
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_sign_1" index="0"]
 
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_sign_1/StaticBody2D" index="0"]
+
+shape = SubResource( 22 )
+
+[node name="green_mountain_top_right" type="Sprite" parent="." index="197"]
+
+visible = false
 position = Vector2( -8, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 320
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite331" type="Sprite" parent="." index="198"]
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_top_right" index="0"]
 
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_top_right/StaticBody2D" index="0"]
+
+shape = SubResource( 23 )
+
+[node name="green_mountain_center_right" type="Sprite" parent="." index="198"]
+
+visible = false
 position = Vector2( -8, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 372
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_mountain_center_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_mountain_center_right/StaticBody2D" index="0"]
+
+shape = SubResource( 24 )
 
 [node name="snow_sign_stone_1" type="Sprite" parent="." index="199"]
 
+visible = false
 position = Vector2( 8, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 425
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_sign_stone_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_sign_stone_1/StaticBody2D" index="0"]
+
+shape = SubResource( 25 )
 
 [node name="Sprite73" type="Sprite" parent="." index="200"]
 
@@ -2147,30 +3128,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_mountain_top_right" type="Sprite" parent="." index="203"]
 
+visible = false
 position = Vector2( 136, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 277
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_top_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_top_right/StaticBody2D" index="0"]
+
+shape = SubResource( 26 )
 
 [node name="snow_mountain_center_right" type="Sprite" parent="." index="204"]
 
+visible = false
 position = Vector2( 136, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 329
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_center_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_center_right/StaticBody2D" index="0"]
+
+shape = SubResource( 27 )
 
 [node name="snow_mountain_bottom_right" type="Sprite" parent="." index="205"]
 
+visible = false
 position = Vector2( 136, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 381
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_mountain_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_mountain_bottom_right/StaticBody2D" index="0"]
+
+shape = SubResource( 28 )
 
 [node name="snow_stairs_center" type="Sprite" parent="." index="206"]
 
@@ -2237,12 +3272,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="water_and_rock_1" type="Sprite" parent="." index="213"]
 
+visible = false
 position = Vector2( 312, 135 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 443
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_and_rock_1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_and_rock_1/StaticBody2D" index="0"]
+
+shape = SubResource( 97 )
 
 [node name="Sprite89" type="Sprite" parent="." index="214"]
 
@@ -2291,21 +3344,57 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="orange_beach_bench_top" type="Sprite" parent="." index="219"]
 
+visible = false
 position = Vector2( 424, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 399
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="orange_beach_bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="orange_beach_bench_top/StaticBody2D" index="0"]
+
+shape = SubResource( 106 )
 
 [node name="water_star" type="Sprite" parent="." index="220"]
 
+visible = false
 position = Vector2( 360, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 447
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_star" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_star/StaticBody2D" index="0"]
+
+shape = SubResource( 107 )
 
 [node name="Sprite98" type="Sprite" parent="." index="221"]
 
@@ -2433,7 +3522,7 @@ hframes = 52
 frame = 361
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite64" type="Sprite" parent="." index="235"]
+[node name="snow_path_top_center" type="Sprite" parent="." index="235"]
 
 position = Vector2( -24, 40 )
 texture = ExtResource( 1 )
@@ -2462,30 +3551,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_wooden_fence_top_left" type="Sprite" parent="." index="238"]
 
+visible = false
 position = Vector2( 8, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 269
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_top_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_top_left/StaticBody2D" index="0"]
+
+shape = SubResource( 29 )
 
 [node name="snow_wooden_fence_center_left" type="Sprite" parent="." index="239"]
 
+visible = false
 position = Vector2( 8, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 321
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_center_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_center_left/StaticBody2D" index="0"]
+
+shape = SubResource( 30 )
 
 [node name="snow_wooden_fence_bottom_left" type="Sprite" parent="." index="240"]
 
+visible = false
 position = Vector2( 8, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 373
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_bottom_left/StaticBody2D" index="0"]
+
+shape = SubResource( 31 )
 
 [node name="tall_snow_grass_1" type="Sprite" parent="." index="241"]
 
@@ -2525,30 +3668,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="wooden_fence_top_left" type="Sprite" parent="." index="245"]
 
+visible = false
 position = Vector2( 152, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 278
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_top_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_top_left/StaticBody2D" index="0"]
+
+shape = SubResource( 32 )
 
 [node name="wooden_fence_center_left2" type="Sprite" parent="." index="246"]
 
+visible = false
 position = Vector2( 152, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 330
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_center_left2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_center_left2/StaticBody2D" index="0"]
+
+shape = SubResource( 33 )
 
 [node name="wooden_fence_bottom_left" type="Sprite" parent="." index="247"]
 
+visible = false
 position = Vector2( 152, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 382
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_bottom_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_bottom_left/StaticBody2D" index="0"]
+
+shape = SubResource( 34 )
 
 [node name="snow_stairs_right" type="Sprite" parent="." index="248"]
 
@@ -2651,30 +3848,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="beach_star" type="Sprite" parent="." index="259"]
 
+visible = false
 position = Vector2( 440, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 348
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="beach_star" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="beach_star/StaticBody2D" index="0"]
+
+shape = SubResource( 108 )
 
 [node name="green_beach_bench_top" type="Sprite" parent="." index="260"]
 
+visible = false
 position = Vector2( 440, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 400
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="green_beach_bench_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="green_beach_bench_top/StaticBody2D" index="0"]
+
+shape = SubResource( 109 )
 
 [node name="water_and_rock_2" type="Sprite" parent="." index="261"]
 
+visible = false
 position = Vector2( 376, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 448
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="water_and_rock_2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="water_and_rock_2/StaticBody2D" index="0"]
+
+shape = SubResource( 110 )
 
 [node name="Sprite101" type="Sprite" parent="." index="262"]
 
@@ -2908,7 +4159,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="snow_tree_trunk_left/StaticBody2D" index="0"]
 
-shape = SubResource( 1 )
+shape = SubResource( 35 )
 
 [node name="green_bush_1" type="Sprite" parent="." index="286"]
 
@@ -2935,7 +4186,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_1/StaticBody2D" index="0"]
 
-shape = SubResource( 2 )
+shape = SubResource( 36 )
 
 [node name="green_bush_2" type="Sprite" parent="." index="287"]
 
@@ -2962,7 +4213,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_2/StaticBody2D" index="0"]
 
-shape = SubResource( 3 )
+shape = SubResource( 37 )
 
 [node name="grass_and_flowers_3" type="Sprite" parent="." index="288"]
 
@@ -3025,7 +4276,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cuckold/StaticBody2D" index="0"]
 
-shape = SubResource( 4 )
+shape = SubResource( 38 )
 
 [node name="tree_trunk_left" type="Sprite" parent="." index="293"]
 
@@ -3052,7 +4303,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="tree_trunk_left/StaticBody2D" index="0"]
 
-shape = SubResource( 5 )
+shape = SubResource( 39 )
 
 [node name="tree_trunk_right" type="Sprite" parent="." index="294"]
 
@@ -3079,7 +4330,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="tree_trunk_right/StaticBody2D" index="0"]
 
-shape = SubResource( 6 )
+shape = SubResource( 40 )
 
 [node name="brown_stone_2" type="Sprite" parent="." index="295"]
 
@@ -3106,7 +4357,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_2/StaticBody2D" index="0"]
 
-shape = SubResource( 7 )
+shape = SubResource( 41 )
 
 [node name="brown_stone_3" type="Sprite" parent="." index="296"]
 
@@ -3133,7 +4384,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_3/StaticBody2D" index="0"]
 
-shape = SubResource( 8 )
+shape = SubResource( 42 )
 
 [node name="brown_stone_4" type="Sprite" parent="." index="297"]
 
@@ -3160,7 +4411,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_4/StaticBody2D" index="0"]
 
-shape = SubResource( 9 )
+shape = SubResource( 43 )
 
 [node name="brown_stone_5" type="Sprite" parent="." index="298"]
 
@@ -3187,7 +4438,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_5/StaticBody2D" index="0"]
 
-shape = SubResource( 10 )
+shape = SubResource( 44 )
 
 [node name="grey_flowerbed" type="Sprite" parent="." index="299"]
 
@@ -3214,7 +4465,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="grey_flowerbed/StaticBody2D" index="0"]
 
-shape = SubResource( 11 )
+shape = SubResource( 45 )
 
 [node name="brown_flowerbed" type="Sprite" parent="." index="300"]
 
@@ -3241,7 +4492,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_flowerbed/StaticBody2D" index="0"]
 
-shape = SubResource( 33 )
+shape = SubResource( 46 )
 
 [node name="bush_and_red_flowers" type="Sprite" parent="." index="301"]
 
@@ -3268,7 +4519,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_red_flowers/StaticBody2D" index="0"]
 
-shape = SubResource( 34 )
+shape = SubResource( 47 )
 
 [node name="wooden_box_1" type="Sprite" parent="." index="302"]
 
@@ -3295,7 +4546,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_box_1/StaticBody2D" index="0"]
 
-shape = SubResource( 35 )
+shape = SubResource( 48 )
 
 [node name="tree_base_1" type="Sprite" parent="." index="303"]
 
@@ -3322,7 +4573,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="tree_base_1/StaticBody2D" index="0"]
 
-shape = SubResource( 36 )
+shape = SubResource( 49 )
 
 [node name="brown_tombstone" type="Sprite" parent="." index="304"]
 
@@ -3349,7 +4600,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_tombstone/StaticBody2D" index="0"]
 
-shape = SubResource( 12 )
+shape = SubResource( 50 )
 
 [node name="brown_stone_6" type="Sprite" parent="." index="305"]
 
@@ -3376,7 +4627,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_6/StaticBody2D" index="0"]
 
-shape = SubResource( 13 )
+shape = SubResource( 51 )
 
 [node name="brown_tombstone_and_flower" type="Sprite" parent="." index="306"]
 
@@ -3403,7 +4654,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_tombstone_and_flower/StaticBody2D" index="0"]
 
-shape = SubResource( 14 )
+shape = SubResource( 52 )
 
 [node name="grass_6" type="Sprite" parent="." index="307"]
 
@@ -3448,7 +4699,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock/StaticBody2D" index="0"]
 
-shape = SubResource( 18 )
+shape = SubResource( 53 )
 
 [node name="brown_face_statue_1" type="Sprite" parent="." index="310"]
 
@@ -3475,7 +4726,7 @@ bounce = 0.0
 
 [node name="CollisionPolygon2D" type="CollisionShape2D" parent="brown_face_statue_1/StaticBody2D" index="0"]
 
-shape = SubResource( 19 )
+shape = SubResource( 54 )
 
 [node name="brown_face_statue_2" type="Sprite" parent="." index="311"]
 
@@ -3502,7 +4753,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_face_statue_2/StaticBody2D" index="0"]
 
-shape = SubResource( 20 )
+shape = SubResource( 55 )
 
 [node name="brown_skull_statue" type="Sprite" parent="." index="312"]
 
@@ -3529,7 +4780,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_skull_statue/StaticBody2D" index="0"]
 
-shape = SubResource( 21 )
+shape = SubResource( 56 )
 
 [node name="bush_and_flowers_2" type="Sprite" parent="." index="313"]
 
@@ -3556,7 +4807,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_flowers_2/StaticBody2D" index="0"]
 
-shape = SubResource( 22 )
+shape = SubResource( 57 )
 
 [node name="bush_and_flowers_3" type="Sprite" parent="." index="314"]
 
@@ -3583,7 +4834,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_flowers_3/StaticBody2D" index="0"]
 
-shape = SubResource( 23 )
+shape = SubResource( 58 )
 
 [node name="red_flowers_1" type="Sprite" parent="." index="315"]
 
@@ -3637,7 +4888,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_sign_2/StaticBody2D" index="0"]
 
-shape = SubResource( 24 )
+shape = SubResource( 59 )
 
 [node name="wooden_big_sign_left" type="Sprite" parent="." index="319"]
 
@@ -3664,7 +4915,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_big_sign_left/StaticBody2D" index="0"]
 
-shape = SubResource( 25 )
+shape = SubResource( 60 )
 
 [node name="wooden_big_sign_right" type="Sprite" parent="." index="320"]
 
@@ -3691,7 +4942,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_big_sign_right/StaticBody2D" index="0"]
 
-shape = SubResource( 26 )
+shape = SubResource( 61 )
 
 [node name="brown_face_statue_3" type="Sprite" parent="." index="321"]
 
@@ -3718,7 +4969,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_face_statue_3/StaticBody2D" index="0"]
 
-shape = SubResource( 27 )
+shape = SubResource( 62 )
 
 [node name="big_rock_3" type="Sprite" parent="." index="322"]
 
@@ -3745,7 +4996,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock_3/StaticBody2D" index="0"]
 
-shape = SubResource( 28 )
+shape = SubResource( 63 )
 
 [node name="green_bush_3" type="Sprite" parent="." index="323"]
 
@@ -3772,7 +5023,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush_3/StaticBody2D" index="0"]
 
-shape = SubResource( 29 )
+shape = SubResource( 64 )
 
 [node name="blue_flowers_1" type="Sprite" parent="." index="324"]
 
@@ -3826,7 +5077,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_bird_house_1/StaticBody2D" index="0"]
 
-shape = SubResource( 30 )
+shape = SubResource( 65 )
 
 [node name="wooden_bird_house_2" type="Sprite" parent="." index="328"]
 
@@ -3853,7 +5104,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_bird_house_2/StaticBody2D" index="0"]
 
-shape = SubResource( 31 )
+shape = SubResource( 66 )
 
 [node name="big_rock_2" type="Sprite" parent="." index="329"]
 
@@ -3880,7 +5131,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="big_rock_2/StaticBody2D" index="0"]
 
-shape = SubResource( 32 )
+shape = SubResource( 67 )
 
 [node name="bush_and_blue_flowers" type="Sprite" parent="." index="330"]
 
@@ -3907,7 +5158,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bush_and_blue_flowers/StaticBody2D" index="0"]
 
-shape = SubResource( 37 )
+shape = SubResource( 68 )
 
 [node name="snow_tree_trunk_right" type="Sprite" parent="." index="331"]
 
@@ -3935,7 +5186,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="snow_tree_trunk_right/StaticBody2D" index="0"]
 
-shape = SubResource( 15 )
+shape = SubResource( 69 )
 
 [node name="Sprite478" type="Sprite" parent="." index="332"]
 
@@ -4080,6 +5331,23 @@ vframes = 56
 hframes = 52
 frame = 518
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="machine_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="machine_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 111 )
 
 [node name="grass_and_flowers_1" type="Sprite" parent="." index="348"]
 
@@ -4117,7 +5385,7 @@ hframes = 52
 frame = 257
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite65" type="Sprite" parent="." index="352"]
+[node name="ice_path_top_right" type="Sprite" parent="." index="352"]
 
 position = Vector2( -8, 40 )
 texture = ExtResource( 1 )
@@ -4146,12 +5414,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_wooden_fence_top_center" type="Sprite" parent="." index="355"]
 
+visible = false
 position = Vector2( 24, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 270
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_top_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_top_center/StaticBody2D" index="0"]
+
+shape = SubResource( 70 )
 
 [node name="snow_wooden_fence_center" type="Sprite" parent="." index="356"]
 
@@ -4164,12 +5450,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_wooden_fence_bottom_center" type="Sprite" parent="." index="357"]
 
+visible = false
 position = Vector2( 24, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 374
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_bottom_center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_bottom_center/StaticBody2D" index="0"]
+
+shape = SubResource( 71 )
 
 [node name="tall_snow_grass_2" type="Sprite" parent="." index="358"]
 
@@ -4209,12 +5513,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="wooden_fence_center_top" type="Sprite" parent="." index="362"]
 
+visible = false
 position = Vector2( 168, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 279
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_center_top" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_center_top/StaticBody2D" index="0"]
+
+shape = SubResource( 72 )
 
 [node name="wooden_fence_center" type="Sprite" parent="." index="363"]
 
@@ -4227,12 +5549,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="wooden_fence_center_bottom" type="Sprite" parent="." index="364"]
 
+visible = false
 position = Vector2( 168, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 383
 _sections_unfolded = [ "Animation", "Region" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_center_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_center_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 73 )
 
 [node name="Sprite371" type="Sprite" parent="." index="365"]
 
@@ -4362,12 +5702,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="red_beach_bench_bottom" type="Sprite" parent="." index="379"]
 
+visible = false
 position = Vector2( 392, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 449
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="red_beach_bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="red_beach_bench_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 112 )
 
 [node name="Sprite95" type="Sprite" parent="." index="380"]
 
@@ -4479,30 +5837,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="snow_wooden_fence_top_right" type="Sprite" parent="." index="392"]
 
+visible = false
 position = Vector2( 40, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 271
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_top_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_top_right/StaticBody2D" index="0"]
+
+shape = SubResource( 74 )
 
 [node name="snow_wooden_fence_center_right" type="Sprite" parent="." index="393"]
 
+visible = false
 position = Vector2( 40, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 323
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_center_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_center_right/StaticBody2D" index="0"]
+
+shape = SubResource( 75 )
 
 [node name="snow_wooden_fence_bottom_right" type="Sprite" parent="." index="394"]
 
+visible = false
 position = Vector2( 40, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 375
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="snow_wooden_fence_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="snow_wooden_fence_bottom_right/StaticBody2D" index="0"]
+
+shape = SubResource( 76 )
 
 [node name="grass_and_snow_left_1" type="Sprite" parent="." index="395"]
 
@@ -4542,30 +5954,84 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="wooden_fence_top_right" type="Sprite" parent="." index="399"]
 
+visible = false
 position = Vector2( 184, 88 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 280
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_top_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_top_right/StaticBody2D" index="0"]
+
+shape = SubResource( 77 )
 
 [node name="wooden_fence_center_right" type="Sprite" parent="." index="400"]
 
+visible = false
 position = Vector2( 184, 104 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 332
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_center_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_center_right/StaticBody2D" index="0"]
+
+shape = SubResource( 78 )
 
 [node name="wooden_fence_bottom_right" type="Sprite" parent="." index="401"]
 
+visible = false
 position = Vector2( 184, 120 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 384
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wooden_fence_bottom_right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_fence_bottom_right/StaticBody2D" index="0"]
+
+shape = SubResource( 79 )
 
 [node name="Sprite366" type="Sprite" parent="." index="402"]
 
@@ -4686,12 +6152,30 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="blue_beach_bench_bottom" type="Sprite" parent="." index="415"]
 
+visible = false
 position = Vector2( 408, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 450
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="blue_beach_bench_bottom" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="blue_beach_bench_bottom/StaticBody2D" index="0"]
+
+shape = SubResource( 113 )
 
 [node name="Sprite102" type="Sprite" parent="." index="416"]
 
@@ -4799,7 +6283,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gym_sign_bottom/StaticBody2D" index="0"]
 
-shape = SubResource( 44 )
+shape = SubResource( 80 )
 
 [node name="brown_stone_1" type="Sprite" parent="." index="426"]
 
@@ -4826,7 +6310,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="brown_stone_1/StaticBody2D" index="0"]
 
-shape = SubResource( 45 )
+shape = SubResource( 81 )
 
 [node name="bench_top" type="Sprite" parent="." index="427"]
 
@@ -4854,7 +6338,7 @@ bounce = 0.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bench_top/StaticBody2D" index="0"]
 
 position = Vector2( 6, 0 )
-shape = SubResource( 39 )
+shape = SubResource( 82 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="bench_bottom" type="Sprite" parent="." index="428"]
@@ -4883,7 +6367,7 @@ bounce = 0.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom/StaticBody2D" index="0"]
 
 position = Vector2( 6, 0 )
-shape = SubResource( 40 )
+shape = SubResource( 83 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="wooden_sign_1" type="Sprite" parent="." index="429"]
@@ -4911,7 +6395,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="wooden_sign_1/StaticBody2D" index="0"]
 
-shape = SubResource( 16 )
+shape = SubResource( 84 )
 
 [node name="green_bush1" type="Sprite" parent="." index="430"]
 
@@ -4938,7 +6422,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="green_bush1/StaticBody2D" index="0"]
 
-shape = SubResource( 17 )
+shape = SubResource( 85 )
 
 [node name="red_sign_top" type="Sprite" parent="." index="431"]
 
@@ -4951,7 +6435,6 @@ _sections_unfolded = [ "Animation" ]
 
 [node name="red_sign_bottom" type="Sprite" parent="." index="432"]
 
-visible = false
 position = Vector2( -104, 72 )
 texture = ExtResource( 1 )
 vframes = 56
@@ -4974,7 +6457,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="red_sign_bottom/StaticBody2D" index="0"]
 
-shape = SubResource( 46 )
+shape = SubResource( 86 )
 
 [node name="sign_left_corner" type="Sprite" parent="." index="433"]
 
@@ -5001,7 +6484,7 @@ bounce = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="sign_left_corner/StaticBody2D" index="0"]
 
-shape = SubResource( 47 )
+shape = SubResource( 87 )
 
 [node name="bench_top_left" type="Sprite" parent="." index="434"]
 
@@ -5039,19 +6522,39 @@ bounce = 0.0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="bench_bottom_left/StaticBody2D" index="0"]
 
 position = Vector2( 0, -6 )
-shape = SubResource( 41 )
+shape = SubResource( 88 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="stairs_summer_left" type="Sprite" parent="." index="436"]
 
+visible = false
 position = Vector2( -88, 136 )
 texture = ExtResource( 1 )
 vframes = 56
 hframes = 52
 frame = 419
 _sections_unfolded = [ "Animation" ]
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite30" type="Sprite" parent="." index="437"]
+[node name="StaticBody2D" type="StaticBody2D" parent="stairs_summer_left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stairs_summer_left/StaticBody2D" index="0"]
+
+position = Vector2( -2, 0 )
+shape = SubResource( 89 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="snow_path_bottom_left_corner" type="Sprite" parent="." index="437"]
 
 position = Vector2( 8, 24 )
 texture = ExtResource( 1 )
@@ -5060,7 +6563,7 @@ hframes = 52
 frame = 59
 _sections_unfolded = [ "Animation" ]
 
-[node name="Sprite31" type="Sprite" parent="." index="438"]
+[node name="snow_path_bottom_right_corner" type="Sprite" parent="." index="438"]
 
 position = Vector2( 24, 24 )
 texture = ExtResource( 1 )

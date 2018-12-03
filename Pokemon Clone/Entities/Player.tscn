@@ -4,14 +4,13 @@
 [ext_resource path="res://Entities/Player.gd" type="Script" id=2]
 [ext_resource path="res://Assets/red.png" type="Texture" id=3]
 
-[sub_resource type="RectangleShape2D" id=9]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 6, 5 )
 
-[sub_resource type="Animation" id=1]
+[sub_resource type="Animation" id=2]
 
-resource_name = "idledown"
 length = 1.0
 loop = false
 step = 0.1
@@ -28,9 +27,8 @@ tracks/0/keys = {
 "values": [ 6 ]
 }
 
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=3]
 
-resource_name = "idleleft"
 length = 1.0
 loop = false
 step = 0.1
@@ -47,9 +45,8 @@ tracks/0/keys = {
 "values": [ 3 ]
 }
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=4]
 
-resource_name = "idleright"
 length = 1.0
 loop = false
 step = 0.1
@@ -66,9 +63,8 @@ tracks/0/keys = {
 "values": [ 9 ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=5]
 
-resource_name = "idleup"
 length = 1.0
 loop = false
 step = 0.1
@@ -85,9 +81,8 @@ tracks/0/keys = {
 "values": [ 0 ]
 }
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id=6]
 
-resource_name = "walkdown"
 length = 0.3
 loop = true
 step = 0.05
@@ -104,9 +99,8 @@ tracks/0/keys = {
 "values": [ 7, 8, 6 ]
 }
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id=7]
 
-resource_name = "walkleft"
 length = 0.3
 loop = true
 step = 0.1
@@ -123,9 +117,8 @@ tracks/0/keys = {
 "values": [ 3, 4, 5, 3 ]
 }
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id=8]
 
-resource_name = "walkright"
 length = 0.3
 loop = true
 step = 0.1
@@ -142,7 +135,7 @@ tracks/0/keys = {
 "values": [ 9, 10, 11, 9 ]
 }
 
-[sub_resource type="Animation" id=8]
+[sub_resource type="Animation" id=9]
 
 length = 0.3
 loop = true
@@ -175,12 +168,11 @@ _sections_unfolded = [ "Animation" ]
 [node name="CollisionShape2D" parent="." index="1"]
 
 position = Vector2( 0, 11 )
-shape = SubResource( 9 )
+shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
 
 [node name="Camera2D" type="Camera2D" parent="." index="2"]
 
-visible = false
 anchor_mode = 1
 rotating = false
 current = true
@@ -196,24 +188,25 @@ smoothing_enabled = false
 smoothing_speed = 5.0
 offset_v = 0.0
 offset_h = 0.0
-drag_margin_left = 0.2
-drag_margin_top = 0.2
-drag_margin_right = 0.2
-drag_margin_bottom = 0.2
+drag_margin_left = 0.0
+drag_margin_top = 0.0
+drag_margin_right = 0.0
+drag_margin_bottom = 0.0
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
+_sections_unfolded = [ "Drag Margin" ]
 
 [node name="Anim" parent="." index="3"]
 
-anims/idledown = SubResource( 1 )
-anims/idleleft = SubResource( 2 )
-anims/idleright = SubResource( 3 )
-anims/idleup = SubResource( 4 )
-anims/walkdown = SubResource( 5 )
-anims/walkleft = SubResource( 6 )
-anims/walkright = SubResource( 7 )
-anims/walkup = SubResource( 8 )
+anims/idledown = SubResource( 2 )
+anims/idleleft = SubResource( 3 )
+anims/idleright = SubResource( 4 )
+anims/idleup = SubResource( 5 )
+anims/walkdown = SubResource( 6 )
+anims/walkleft = SubResource( 7 )
+anims/walkright = SubResource( 8 )
+anims/walkup = SubResource( 9 )
 _sections_unfolded = [ "Playback Options" ]
 
 
