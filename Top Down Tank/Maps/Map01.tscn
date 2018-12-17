@@ -60,11 +60,8 @@ _sections_unfolded = [ "Collision", "Transform" ]
 
 [node name="Paths" type="Node2D" parent="Enemies" index="0"]
 
-editor/display_folded = true
-
 [node name="Path2D" type="Path2D" parent="Enemies/Paths" index="0"]
 
-editor/display_folded = true
 self_modulate = Color( 0.5, 0.6, 1, 0.7 )
 rotation = 0.000283158
 curve = SubResource( 1 )
@@ -84,8 +81,6 @@ lookahead = 4.0
 [node name="EnemyTank" parent="Enemies/Paths/Path2D/PathFollow2D" index="0" instance=ExtResource( 5 )]
 
 Bullet = ExtResource( 6 )
-max_ammo = 20
-ammo = -1
 gun_shots = 3
 
 [node name="Path2D2" type="Path2D" parent="Enemies/Paths" index="1"]
@@ -107,9 +102,6 @@ loop = true
 lookahead = 4.0
 
 [node name="EnemyTank" parent="Enemies/Paths/Path2D2/PathFollow2D" index="0" instance=ExtResource( 5 )]
-
-max_ammo = 20
-ammo = -1
 
 [node name="GunTurret" parent="Enemies" index="1" instance=ExtResource( 7 )]
 

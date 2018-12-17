@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Tileset/Tileset.tres" type="TileSet" id=1]
-[ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Entities/InteractableEntities.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=3]
 
 [node name="Test" type="Node2D" index="0"]
 
@@ -24,13 +25,17 @@ collision_mask = 1
 occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( 65557, 162, 0, 131093, 162, 0, 196608, 162, 0, 196610, 432, 0, 196611, 98, 0, 196629, 162, 0, 262144, 162, 0, 262165, 162, 0, 327680, 162, 0, 786440, 162, 0, 786441, 162, 0, 786442, 162, 0, 786443, 162, 0 )
-_sections_unfolded = [ "Cell" ]
+_sections_unfolded = [ "Visibility" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
+[node name="InteractableEntities" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 56.0208, 56.0208 )
+
+[node name="Player" parent="." index="2" instance=ExtResource( 3 )]
 
 position = Vector2( 183.638, 64.4796 )
 
-[node name="TileFront" type="TileMap" parent="." index="2"]
+[node name="TileFront" type="TileMap" parent="." index="3"]
 
 mode = 0
 tile_set = ExtResource( 1 )

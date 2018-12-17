@@ -4,6 +4,7 @@ var speed = 0
 var movedir = Vector2()
 var spritedir = "down"
 var isMoving = false
+var isTalking = false
 
 #Directions constants
 const DIR_CENTER = Vector2(0,0)
