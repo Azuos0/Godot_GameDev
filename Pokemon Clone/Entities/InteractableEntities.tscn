@@ -1,9 +1,4 @@
-[gd_scene load_steps=2 format=2]
-
-[sub_resource type="RectangleShape2D" id=1]
-
-custom_solver_bias = 0.0
-extents = Vector2( 8, 8 )
+[gd_scene format=2]
 
 [node name="InteractableEntities" type="Area2D"]
 
@@ -19,8 +14,12 @@ _sections_unfolded = [ "Collision" ]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
 
-shape = SubResource( 1 )
-
 [node name="Interact" type="Node2D" parent="." index="1"]
+
+[node name="Sprite" type="Sprite" parent="." index="2"]
+
+region_enabled = true
+region_rect = Rect2( 352, 144, 48, 45 )
+_sections_unfolded = [ "Animation", "Region" ]
 
 

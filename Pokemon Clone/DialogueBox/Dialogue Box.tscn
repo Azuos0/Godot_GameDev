@@ -2,16 +2,17 @@
 
 [ext_resource path="res://Assets/R0H84Id.png" type="Texture" id=1]
 [ext_resource path="res://DialogueBox/Dialogue Box.gd" type="Script" id=2]
-[ext_resource path="res://Fonts/Monofont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Assets/Fonts/Monofont.tres" type="DynamicFont" id=3]
 
 [node name="Dialogue Box" type="NinePatchRect"]
 
 anchor_left = 0.0
-anchor_top = 0.0
+anchor_top = 1.0
 anchor_right = 0.0
-anchor_bottom = 0.0
-margin_right = 40.0
-margin_bottom = 40.0
+anchor_bottom = 1.0
+margin_top = -78.0
+margin_right = 434.0
+margin_bottom = -15.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -60,12 +61,12 @@ scroll_active = true
 scroll_following = false
 selection_enabled = false
 override_selected_font_color = false
-_sections_unfolded = [ "custom_colors" ]
+_sections_unfolded = [ "Anchor", "custom_colors" ]
 
 [node name="Timer" type="Timer" parent="." index="1"]
 
 process_mode = 1
-wait_time = 0.05
+wait_time = 0.1
 one_shot = false
 autostart = false
 

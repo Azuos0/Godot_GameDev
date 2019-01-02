@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tileset-wesley2.png-b3c2c1c470251aafd59ecbb712a2c00f.stex"
+path="res://.import/Overworld.png-19ff6fea2073a6a8e3d1496f8f813225.stex"
 
 [deps]
 
-source_file="res://Assets/tileset-wesley2.png"
-dest_files=[ "res://.import/tileset-wesley2.png-b3c2c1c470251aafd59ecbb712a2c00f.stex" ]
+source_file="res://Assets/Overworld.png"
+dest_files=[ "res://.import/Overworld.png-19ff6fea2073a6a8e3d1496f8f813225.stex" ]
 
 [params]
 

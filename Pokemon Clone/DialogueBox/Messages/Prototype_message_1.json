@@ -1,0 +1,7 @@
+{
+    "type": "objeto",
+    "nome": "poste",
+    "messagem": ["Teste utilizando json!", "Teste com segunda mensagem"],
+    "num_mensagem": 2,
+    "teste": "Prototype_message_1.json"
+}

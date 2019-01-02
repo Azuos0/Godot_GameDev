@@ -1,6 +1,7 @@
 extends "res://Entities/Entities.gd"
 
 var state = "default"
+signal interacting
 
 func _ready():
 	speed = 70
@@ -11,12 +12,11 @@ func _physics_process(delta):
 	movement_anim_loop()
 	spritedir_loop()
 	update_interactable_pointer()
-	pass
 
 func controls_loop():
 	
+	#movement control
 	movedir = DIR_CENTER
-	isMoving = true
 	if !isTalking:
 		if Input.is_action_pressed("ui_left"):
 			movedir = DIR_LEFT
@@ -29,8 +29,13 @@ func controls_loop():
 		else:
 			isMoving = false
 	
-	if Input.is_action_just_pressed("Action"):
+	if movedir != DIR_CENTER:
+		isMoving = true
+	
+	#interaction control
+	if Input.is_action_just_pressed("Action") && !isTalking:
 		interact()
+	
 
 func movement_anim_loop():
 	if isMoving:
@@ -39,10 +44,13 @@ func movement_anim_loop():
 		anim_switch("idle")
 
 func interact():
-	if $InteractablePointer.is_colliding():
-		var entitie = $InteractablePointer.get_collider() 
-		if entitie.has_node("Interact"):
-			$"Camera2D/Dialogue Box".showMessage()
+	if isTalking:
+		$"Camera2D/Dialogue Box".skipMessagem()
+	else:
+		if $InteractablePointer.is_colliding():
+			var entitie = $InteractablePointer.get_collider() 
+			if entitie.has_method("isInteractable") && entitie.isInteractable():
+				$"Camera2D/Dialogue Box".startMessage()
 
 func update_interactable_pointer():
 	match movedir:
