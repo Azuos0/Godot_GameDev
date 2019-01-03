@@ -35,13 +35,16 @@ var pokemonRegions = {
 	Itens.bottomLight_pole: Rect2(64, 80, 16, 16)
 	}
 
-export (Itens) var type setget _update
+export (Itens) var type = Itens.logg setget _update
 export (bool) var interactable = false setget ,isInteractable
 
 func _update(_type):
 	type = _type
 	
-	wait_game_to_Load()
+	#Verify if the node has enter in the tree (this condition can't be called in another method)
+	if !Engine.editor_hint:
+		yield(self, 'tree_entered')
+	
 	selectSpriteSheet(type)
 	setCollisionShape()
 

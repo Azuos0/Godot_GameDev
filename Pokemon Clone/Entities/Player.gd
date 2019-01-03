@@ -50,7 +50,8 @@ func interact():
 		if $InteractablePointer.is_colliding():
 			var entitie = $InteractablePointer.get_collider() 
 			if entitie.has_method("isInteractable") && entitie.isInteractable():
-				$"Camera2D/Dialogue Box".startMessage()
+				emit_signal("interacting", self, entitie)
+				#$"Camera2D/Dialogue Box".startMessage()
 
 func update_interactable_pointer():
 	match movedir:

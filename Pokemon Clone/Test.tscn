@@ -1,16 +1,19 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Tileset/Terrain_tile.tres" type="TileSet" id=1]
-[ext_resource path="res://Tileset/Tileset.tres" type="TileSet" id=2]
-[ext_resource path="res://Environment/Obstacles.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://WorldController.gd" type="Script" id=1]
+[ext_resource path="res://Tileset/Terrain_tile.tres" type="TileSet" id=2]
+[ext_resource path="res://Tileset/Tileset.tres" type="TileSet" id=3]
+[ext_resource path="res://Environment/Obstacles.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=5]
 
 [node name="Test" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
 
 [node name="Terrain" type="TileMap" parent="." index="0"]
 
 mode = 0
-tile_set = ExtResource( 1 )
+tile_set = ExtResource( 2 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -31,7 +34,7 @@ _sections_unfolded = [ "Cell", "Visibility" ]
 [node name="TileBack" type="TileMap" parent="." index="1"]
 
 mode = 0
-tile_set = ExtResource( 2 )
+tile_set = ExtResource( 3 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -51,23 +54,25 @@ _sections_unfolded = [ "Cell", "Visibility" ]
 
 [node name="Obstacles" type="Node2D" parent="." index="2"]
 
-[node name="Obstacles1" parent="Obstacles" index="0" instance=ExtResource( 3 )]
+[node name="Obstacles1" parent="Obstacles" index="0" instance=ExtResource( 4 )]
 
-position = Vector2( 123.137, 43.6936 )
+position = Vector2( 119.008, 39.4217 )
 type = 0
+interactable = true
 
-[node name="Obstacles2" parent="Obstacles" index="1" instance=ExtResource( 3 )]
+[node name="Obstacles2" parent="Obstacles" index="1" instance=ExtResource( 4 )]
 
-position = Vector2( 242.698, 42.8992 )
+position = Vector2( 247.824, 40.1937 )
+type = 18
 
-[node name="Player" parent="." index="3" instance=ExtResource( 4 )]
+[node name="Player" parent="." index="3" instance=ExtResource( 5 )]
 
 position = Vector2( 183.638, 64.4796 )
 
 [node name="TileFront" type="TileMap" parent="." index="4"]
 
 mode = 0
-tile_set = ExtResource( 2 )
+tile_set = ExtResource( 3 )
 cell_size = Vector2( 16, 16 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -84,5 +89,7 @@ occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( 131074, 431, 0, 131075, 97, 0, 720904, 97, 0, 720908, 97, 0, 983048, 97, 0, 983052, 97, 0 )
 _sections_unfolded = [ "Cell" ]
+
+[connection signal="interacting" from="Player" to="." method="_on_Player_interacting"]
 
 
