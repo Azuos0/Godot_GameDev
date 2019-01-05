@@ -16,25 +16,11 @@ func _physics_process(delta):
 func controls_loop():
 	
 	#movement control
-	movedir = DIR_CENTER
 	if !isTalking:
-		if Input.is_action_pressed("ui_left"):
-			movedir = DIR_LEFT
-		elif Input.is_action_pressed("ui_right"):
-			movedir = DIR_RIGHT
-		elif Input.is_action_pressed("ui_up"):
-			movedir = DIR_UP
-		elif Input.is_action_pressed("ui_down"):
-			movedir = DIR_DOWN
-		else:
-			isMoving = false
-	
-	if movedir != DIR_CENTER:
-		isMoving = true
+		playerMovement_control()
 	
 	#interaction control
-	if Input.is_action_just_pressed("Action") && !isTalking:
-		interact()
+	playerInteraction_control()
 	
 
 func movement_anim_loop():
@@ -67,3 +53,24 @@ func update_interactable_pointer():
 		DIR_UP:
 			$InteractablePointer.rotation_degrees = 180
 			$InteractablePointer.position = Vector2(0, 5.8)
+
+func playerMovement_control():
+	movedir = DIR_CENTER
+	
+	if Input.is_action_pressed("ui_left"):
+		movedir = DIR_LEFT
+	elif Input.is_action_pressed("ui_right"):
+		movedir = DIR_RIGHT
+	elif Input.is_action_pressed("ui_up"):
+		movedir = DIR_UP
+	elif Input.is_action_pressed("ui_down"):
+		movedir = DIR_DOWN
+	else:
+		isMoving = false
+	
+	if movedir != DIR_CENTER:
+		isMoving = true
+
+func playerInteraction_control():
+	if Input.is_action_just_pressed("Action") && !isTalking:
+		interact()
