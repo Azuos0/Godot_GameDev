@@ -31,7 +31,8 @@ func movement_anim_loop():
 
 func interact():
 	if isTalking:
-		$"Camera2D/Dialogue Box".skipMessagem()
+		#$"Camera2D/Dialogue Box".skipMessagem()
+		pass
 	else:
 		if $InteractablePointer.is_colliding():
 			var entitie = $InteractablePointer.get_collider() 
